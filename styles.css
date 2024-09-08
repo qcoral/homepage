@@ -1,0 +1,59 @@
+body {
+  background-color: #18171A;
+  color: white;
+  font-family: monospace;
+
+  background-image: url("./assets/bg.svg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+  max-width: 32.5rem;
+  margin: 5rem auto;
+}
+
+.pfp {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  margin-right: 1.5rem;
+}
+
+.icons {
+  /* display: inline-block; */
+  /* max-width: 20%; */
+  fill: grey;
+  transition: 0.15s;
+  width: 1.75rem;
+}
+
+.icons:hover {
+  fill: white;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-top: 0rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+ul {
+  font-size: 0.9rem;
+}
+
+li {
+  margin-top: 1rem;
+}
+
+
+a {
+  font-weight: bold;
+  color: pink;
+}
