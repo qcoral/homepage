@@ -9,10 +9,10 @@ body {
   background-attachment: fixed;
   background-position-x: center;
 
-  padding-left: 2.5rem;
-  padding-right: 1rem;
-  max-width: 32.5rem;
-  margin: 5rem auto;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+  max-width: 33rem;
+  margin: 3rem auto;
 }
 
 .pfp {
@@ -41,15 +41,15 @@ h1 {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 ul {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 li {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
 }
 
 
