@@ -1,11 +1,11 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 
 body {
   background-color: #18171A;
   color: white;
   font-family: monospace;
 
-  background-image: url("./assets/bg.svg");
+  background-image: url("bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
