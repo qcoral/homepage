@@ -1,20 +1,25 @@
-**Who's this?**
+## about me!!
 
-Hi! I'm alex. I'm an 19 year old from Toronto, currently taking a gap year to run programs at Hack Club! After that, I'll be studying math & physics at the University of Toronto. Some fun facts about me:
+Hi there! I'm Alex. I go by dari online (or qcoral depending on where you found me). I'm currently working on open-source hardware & education @ [Hack Club](hackclub.com)! I also study math & physics @ University of Toronto.
 
-    I designed an entire 3D printer from scratch. Definitely my favourite project.
-    I used to compete in Overwatch! I was consistently top 100 in north america
+Want to talk/hangout/\<activity of your choosing>? Reach me at alexren[at]hackclub.com
 
+(my socials are up top as well!)
 
----
+Here's some other things in my life:
 
-So what do you do for fun?
+See me in public? Please say hi! You might just get something cool. Promise I don't bite :)
 
-I attempt to draw. I'm going to be honest almost all of my free time is either working or hanging out with friends. 
+## right now:
 
----
+I'm currently located in: Toronto! (note to self: make this an API later)
 
+## what's next:
 
-Anything else?
+The next event I'm attending will be: [RMRRF 2026](https://rockymountainreprapfestival.com/)
 
-Not really! Only thing I'll ask is that if you ever see me in public, say hi! I'd love to talk
+## Explore me:
+
+[Hack Club](/hackclub) - [e-Sports (Overwatch)](/overwatch) - Stuff I am looking for
+
+(WIP I PROMISE IM UPDATING THIS)
