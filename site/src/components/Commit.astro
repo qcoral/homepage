@@ -1,0 +1,26 @@
+---
+// Grab latest commit & timestamp from github repo
+
+const response = await fetch(
+  "https://api.github.com/repos/qcoral/homepage/commits/astro-ver"
+);
+const commitData = await response.json();
+---
+
+<div class="text-gray-500 text-sm mt-4 mb-4 text-center">
+  Commit <a
+    class="text-pink-300 font-semibold"
+    href={`https://github.com/qcoral/homepage/commit/${commitData.sha}`}
+    target="_blank"
+    rel="noopener noreferrer">{commitData.sha.slice(0, 7)}</a
+  >! last updated:
+  {
+    new Date(commitData.commit.committer.date).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+    })
+  }
+</div>

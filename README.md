@@ -1,2 +1,5 @@
 # homepage
-My personal website! Built in pure html + CSS
+
+Personal site! ~~Built in pure html + css~~ now with astro!
+
+Don't take this one super seriously lol.

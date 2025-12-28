@@ -1,14 +1,24 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import "../styles/main.css";
 import About from "../content/about.md";
 import Banner from "../components/Banner.astro";
+import Commit from "../components/Commit.astro";
+import Quotes from "../components/Quotes.astro";
 ---
 
 <Layout>
-  <Banner />
-  <div style="padding-top: 0.5rem;">
-    <hr />
-    <About />
+  <div class="max-w-2xl 2xl:max-w-3xl mx-auto">
+    <Banner />
+    <hr class="border-gray-600 border-2 mt-8 -mb-1" />
+    <div
+      class="pt-8 text-md 2xl:text-lg transition-[font-size] duration-200 ease-out prose prose-invert max-w-none"
+    >
+      <About />
+    </div>
+    <hr class="border-gray-600 border-2 mt-8 -mb-1" />
+    <div class="flex flex-col justify-center">
+      <Quotes />
+      <Commit />
+    </div>
   </div>
 </Layout>

@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navigator from "../components/Navigator.astro";
+// this should only contain text + a back button to go back to normalcy
+---
+
+<Layout>
+  <Navigator />
+  <div class="pt-8 text-lg prose prose-invert max-w-2xl mx-auto">
+    <slot />
+  </div>
+</Layout>

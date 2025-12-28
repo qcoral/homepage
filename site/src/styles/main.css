@@ -1,66 +1,18 @@
-/* @import "tailwindcss"; */
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
 
-body {
-  background-color: #18171a;
-  color: rgb(219, 219, 219);
-  font-family: monospace;
-  font-weight: 500;
+@layer utilities {
+  .prose a {
+    @apply text-pink-300 font-bold hover:bg-pink-400/70;
+  }
+  .prose h1 {
+    @apply text-3xl font-semibold;
+  }
+  .prose h3 {
+    @apply text-xl font-semibold;
+  }
 
-  background-image: url("bg.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-x: center;
-
-  padding-left: 2rem;
-  padding-right: 1.5rem;
-  max-width: 40rem;
-  margin: 3rem auto;
-}
-
-.pfp {
-  display: inline-block;
-  width: 5rem;
-  height: 5rem;
-  border-radius: 1rem;
-  margin-right: 1.5rem;
-}
-
-.icons {
-  /* display: inline-block; */
-  /* max-width: 20%; */
-  fill: grey;
-  transition: 0.15s;
-  width: 1.75rem;
-}
-
-.icons:hover {
-  fill: white;
-}
-
-h1 {
-  font-size: 1.5rem;
-  margin-top: 0rem;
-}
-
-h2 {
-  font-size: 1.2rem;
-  margin-top: 0rem;
-}
-
-p {
-  font-size: 1rem;
-}
-
-ul {
-  font-size: 0.85rem;
-}
-
-li {
-  margin-top: 0.75rem;
-}
-
-a {
-  font-weight: bold;
-  color: pink;
+  .prose p {
+    @apply leading-relaxed text-gray-200;
+  }
 }

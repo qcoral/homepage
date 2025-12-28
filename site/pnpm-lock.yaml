@@ -14,9 +14,16 @@ importers:
       astro:
         specifier: ^5.15.8
         version: 5.15.8(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.53.2)(typescript@5.9.3)
+      rehype-external-links:
+        specifier: ^3.0.0
+        version: 3.0.0
       tailwindcss:
         specifier: ^4.1.17
         version: 4.1.17
+    devDependencies:
+      '@tailwindcss/typography':
+        specifier: ^0.5.19
+        version: 0.5.19(tailwindcss@4.1.17)
 
 packages:
 
@@ -601,6 +608,11 @@ packages:
     resolution: {integrity: sha512-F0F7d01fmkQhsTjXezGBLdrl1KresJTcI3DB8EkScCldyKp3Msz4hub4uyYaVnk88BAS1g5DQjjF6F5qczheLA==}
     engines: {node: '>= 10'}
 
+  '@tailwindcss/typography@0.5.19':
+    resolution: {integrity: sha512-w31dd8HOx3k9vPtcQh5QHP9GwKcgbMp87j58qi6xgiBnFFtKEAgCWnDw4qUT8aHwkCp8bKvb/KGKWWHedP0AAg==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1'
+
   '@tailwindcss/vite@4.1.17':
     resolution: {integrity: sha512-4+9w8ZHOiGnpcGI6z1TVVfWaX/koK7fKeSYF3qlYg2xpBtbteP2ddBxiarL+HVgfSJGeK5RIxRQmKm4rTJJAwA==}
     peerDependencies:
@@ -933,6 +945,10 @@ packages:
   iron-webcrypto@1.2.1:
     resolution: {integrity: sha512-feOM6FaSr6rEABp/eDfVseKyTMDt+KGpeB35SkVn9Tyn0CqvVsY3EwI0v5i8nMHyJnzCIQf7nsy3p41TPkJZhg==}
 
+  is-absolute-url@4.0.1:
+    resolution: {integrity: sha512-/51/TKE88Lmm7Gc4/8btclNXWS+g50wXhYJq8HWIBAGUBnoAdRu1aXeh364t/O7wXDAcTJDP8PNuNKWUDWie+A==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
   is-docker@3.0.0:
     resolution: {integrity: sha512-eljcgEDlEns/7AXFosB5K/2nCM4P7FQPkGc/DWLy5rmFEWvZayGrik1d9/QIY5nJ4f9YsVvBkA6kJpHn9rISdQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -1254,6 +1270,10 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
+  postcss-selector-parser@6.0.10:
+    resolution: {integrity: sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==}
+    engines: {node: '>=4'}
+
   postcss@8.5.6:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
@@ -1287,6 +1307,9 @@ packages:
 
   regex@6.0.1:
     resolution: {integrity: sha512-uorlqlzAKjKQZ5P+kTJr3eeJGSVroLKoHmquUj4zHWuR+hEyNqlXsSKlYYF5F4NI6nl7tWCs0apKJ0lmfsXAPA==}
+
+  rehype-external-links@3.0.0:
+    resolution: {integrity: sha512-yp+e5N9V3C6bwBeAC4n796kc86M4gJCdlVhiMTxIrJG5UHDMh+PJANf9heqORJbt1nrCbDwIlAZKjANIaVBbvw==}
 
   rehype-parse@9.0.1:
     resolution: {integrity: sha512-ksCzCD0Fgfh7trPDxr2rSylbwq9iYDkSn8TCDmEJ49ljEUBxDVCzCHv7QNzZOfODanX4+bWQ4WZqLCRWYLfhag==}
@@ -1539,6 +1562,9 @@ packages:
         optional: true
       uploadthing:
         optional: true
+
+  util-deprecate@1.0.2:
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
   vfile-location@5.0.3:
     resolution: {integrity: sha512-5yXvWDEgqeiYiBe1lbxYF7UMAIm/IcopxMHrMQDq3nvKcjPKIhZklUKL+AE7J7uApI4kwe2snsK+eI6UTj9EHg==}
@@ -2086,6 +2112,11 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.1.17
       '@tailwindcss/oxide-win32-x64-msvc': 4.1.17
 
+  '@tailwindcss/typography@0.5.19(tailwindcss@4.1.17)':
+    dependencies:
+      postcss-selector-parser: 6.0.10
+      tailwindcss: 4.1.17
+
   '@tailwindcss/vite@4.1.17(vite@6.4.1(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2))':
     dependencies:
       '@tailwindcss/node': 4.1.17
@@ -2545,6 +2576,8 @@ snapshots:
   import-meta-resolve@4.2.0: {}
 
   iron-webcrypto@1.2.1: {}
+
+  is-absolute-url@4.0.1: {}
 
   is-docker@3.0.0: {}
 
@@ -3014,6 +3047,11 @@ snapshots:
 
   picomatch@4.0.3: {}
 
+  postcss-selector-parser@6.0.10:
+    dependencies:
+      cssesc: 3.0.0
+      util-deprecate: 1.0.2
+
   postcss@8.5.6:
     dependencies:
       nanoid: 3.3.11
@@ -3044,6 +3082,15 @@ snapshots:
   regex@6.0.1:
     dependencies:
       regex-utilities: 2.3.0
+
+  rehype-external-links@3.0.0:
+    dependencies:
+      '@types/hast': 3.0.4
+      '@ungap/structured-clone': 1.3.0
+      hast-util-is-element: 3.0.0
+      is-absolute-url: 4.0.1
+      space-separated-tokens: 2.0.2
+      unist-util-visit: 5.0.0
 
   rehype-parse@9.0.1:
     dependencies:
@@ -3357,6 +3404,8 @@ snapshots:
       node-fetch-native: 1.6.7
       ofetch: 1.5.1
       ufo: 1.6.1
+
+  util-deprecate@1.0.2: {}
 
   vfile-location@5.0.3:
     dependencies:
