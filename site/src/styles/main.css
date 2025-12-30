@@ -3,7 +3,7 @@
 
 @layer utilities {
   .prose a {
-    @apply text-pink-300 font-bold hover:bg-pink-400/70;
+    @apply text-pink-300 font-bold hover:bg-pink-400/70 no-underline;
   }
   .prose h1 {
     @apply text-3xl font-semibold;
