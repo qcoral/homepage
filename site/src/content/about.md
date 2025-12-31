@@ -1,6 +1,6 @@
 ### about!
 
-Hi there! I'm Alex. I go by dari online (or qcoral depending on where you found me).
+Hi there! I'm Alex. I go by dari online (or qcoral depending on where you found me). I'm a 19-year old from Toronto who's been making projects on and off for the past ~10 years.
 
 I'm currently working on open-source hardware & education @ [Hack Club](https://hackclub.com)! I also attempt to study math & physics @ University of Toronto.
 
@@ -14,7 +14,7 @@ Want to talk/hangout/\<activity of your choosing>? Find me at:
 
 </div>
 
-In the past, I [designed my own 3D printer](https://github.com/the-openary/neutrino) from scratch (that fits in a filament box!), ran a [4-day hardware hackathon](https://www.youtube.com/watch?v=kaEFv7e49mo) at GitHub HQ, and was also formerly top 50 in Overwatch
+In the past, I [designed my own 3D printer](https://github.com/the-openary/neutrino) from scratch (that fits in a filament box!), ran a [4-day hardware hackathon](https://www.youtube.com/watch?v=kaEFv7e49mo) at GitHub HQ, and was also formerly top 50 in Overwatch!
 
 If you see me in public, please say hi! I promise I don't bite :D
 
