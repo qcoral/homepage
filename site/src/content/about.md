@@ -1,10 +1,8 @@
 ### about!
 
-Hi there! I'm Alex. I go by dari online (or qcoral depending on where you found me). I'm a 19-year old from Toronto who's been making projects on and off for the past ~10 years.
+Hi there! I'm Alex. I go by dari online (or qcoral depending on where you found me). I'm a 19-year old from Toronto who's been making projects on and off for the past ~10 years!
 
-I'm currently working on open-source hardware & education @ [Hack Club](https://hackclub.com)! I also attempt to study math & physics @ University of Toronto.
-
-<!-- I'm currently focused on -->
+I'm currently focused on building out the open-source hardware community I wish I had as a kid growing up @ [Hack Club](https://hackclub.com)! I also attempt to study math & physics @ University of Toronto.
 
 Want to talk/hangout/\<activity of your choosing>? Find me at:
 
@@ -14,23 +12,20 @@ Want to talk/hangout/\<activity of your choosing>? Find me at:
 
 </div>
 
-In the past, I [designed my own 3D printer](https://github.com/the-openary/neutrino) from scratch (that fits in a filament box!), ran a [4-day hardware hackathon](https://www.youtube.com/watch?v=kaEFv7e49mo) at GitHub HQ, and was also formerly top 50 in Overwatch!
-
-If you see me in public, please say hi! I promise I don't bite :D
-
-Here are some other things in my life!
-
-### right now:
-
-I'm currently located in: Toronto! (note to self: make this an API later)
-
-### what's next:
+In the past, I [designed my own 3D printer](https://github.com/the-openary/neutrino) from scratch (that fits in a filament box!), ran a [4-day hardware hackathon](https://www.youtube.com/watch?v=kaEFv7e49mo) at GitHub HQ, and and played Overwatch semi-professionally.
 
 The next event I'm attending will be: [RMRRF 2026](https://rockymountainreprapfestival.com/)
+
+If you ever see me in public, please say hi! I promise I don't bite :D
 
 <!-- ### past work:
 
 I've been on this planet for 19 years! Here's some of the stuff I have cobbled together in the meantime:
+
+(projects)
+
+
+You may also be interested in reading about the different chapters of my life
 
 - [] -->
 

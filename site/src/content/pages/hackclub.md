@@ -1,5 +1,6 @@
-# Hack Club!
+---
+title: "Hack Club!"
+published: 2026-01-02
+---
 
-I took a gap year to work at hack club!
-
-CHRONICLES COMING ANOTHER TIME
+I took a gap year
