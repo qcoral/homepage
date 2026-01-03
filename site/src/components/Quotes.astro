@@ -1,5 +1,6 @@
 ---
 // Render a random quote from quotelist.yaml
+export const prerender = false
 import { getEntry } from "astro:content";
 
 const quotelist = await getEntry("quotelist", "quotelist");

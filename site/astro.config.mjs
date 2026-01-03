@@ -4,11 +4,14 @@ import rehypeExternalLinks from "rehype-external-links";
 
 import tailwindcss from "@tailwindcss/vite";
 
+import node from "@astrojs/node";
+
 // https://astro.build/config
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+
   markdown: {
     rehypePlugins: [
       [
@@ -20,4 +23,8 @@ export default defineConfig({
       ],
     ],
   },
+
+  adapter: node({
+    mode: "standalone",
+  }),
 });
