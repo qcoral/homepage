@@ -1,7 +1,7 @@
 #!/bin/sh
 # Check if new commit - if there is, pull new changes and rebuild
 
-git fetch origin main
+git fetch origin astro-ver
 if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/astro-ver)" ]; then
     echo "new commit detected!! pulling changes and rebuilding :3"
     git pull origin astro-ver
