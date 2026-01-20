@@ -12,8 +12,32 @@ export async function getStaticPaths() {
 
 const { page } = Astro.props;
 const { Content } = await page.render();
+
+const title = page.data.title ?? "title not found";
+const description = page.data.description ?? null;
+const published = page.data.published
+  ? new Date(page.data.published).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    })
+  : null;
 ---
 
 <Blog>
+  <div class="text-left prose-h1:my-0">
+    <h1>{title}</h1>
+    {description && <p>{description}</p>}
+    {
+      published && (
+        <p>
+          <em>Posted: {published}</em>
+        </p>
+      )
+    }
+  </div>
+  <div class="prose-hr:mt-6 prose-hr:mb-0">
+    <hr class="border-gray-600 border" />
+  </div>
   <Content />
 </Blog>
