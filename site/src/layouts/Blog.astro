@@ -5,12 +5,12 @@ import Navigator from "../components/Navigator.astro";
 ---
 
 <Layout>
-  <div class="fixed">
-    <Navigator />
-  </div>
-  <div
-    class="pt-8 prose-sm prose-h2:my-2 prose-h1:text-pink-300 lg:prose-base bg-noise prose prose-invert max-w-xl lg:max-w-2xl 2xl:max-w-3xl mx-auto bg-gray-900/25 p-6 rounded-lg border-2 border-gray-600"
-  >
-    <slot />
-  </div>
+    <div class="fixed">
+        <Navigator />
+    </div>
+    <div
+        class="pt-8 prose-h2:my-2 prose-h1:text-pink-300 bg-noise prose prose-invert max-w-xl lg:max-w-3xl 2xl:max-w-4xl mx-auto bg-gray-900/25 p-6 rounded-lg border-2 border-gray-600"
+    >
+        <slot />
+    </div>
 </Layout>

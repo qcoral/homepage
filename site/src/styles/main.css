@@ -2,17 +2,23 @@
 @plugin '@tailwindcss/typography';
 
 @layer utilities {
-  .prose a {
-    @apply text-pink-300 font-bold hover:bg-pink-400/70 no-underline;
-  }
-  .prose h1 {
-    @apply text-3xl font-semibold;
-  }
-  .prose h3 {
-    @apply text-xl font-semibold;
-  }
+    .prose a {
+        @apply text-pink-300 font-bold hover:bg-pink-400/70 no-underline;
+    }
+    .prose h1 {
+        @apply text-3xl font-semibold;
+    }
+    .prose h3 {
+        @apply text-xl font-semibold;
+    }
 
-  .prose p {
-    @apply leading-relaxed text-gray-200;
-  }
+    .prose p {
+        @apply leading-relaxed text-gray-300 prose-sm 2xl:prose-base;
+    }
+
+    /* Stronger override for Tailwind Typography which sets its own li spacing */
+    .prose ul > li + li {
+        margin-top: 0.1rem !important;
+        margin-bottom: 0.1rem !important;
+    }
 }

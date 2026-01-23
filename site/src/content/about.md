@@ -1,6 +1,6 @@
 ### about!
 
-Hi there! I'm Alex. I go by dari online (or qcoral depending on where you found me). I'm a 20-year old from Toronto who's been making projects on and off for the past ~11 years!
+Hi there! I'm Alex. I go by dari online (or qcoral depending on where you found me). I'm a 20-year old from Toronto who's been making projects on and off for the past ~10 years!
 
 I'm currently focused on building out the open-source hardware community I wish I had as a kid growing up @ [Hack Club](https://hackclub.com)! I also attempt to study math & physics @ University of Toronto.
 
@@ -24,7 +24,6 @@ If you ever see me in public, please say hi! I promise I don't bite :D
 
 I've been on this planet for 19 years! Here's some of the stuff I have cobbled together in the meantime:
 
-- [Neutrino, a $200 USD printer that fits in a filament box!](https://github.com/the-openary/neutrino)
-- []
+- [Neutrino](https://github.com/the-openary/neutrino), a $200 USD printer that fits in a filament box!
 
-<!-- sign my guestbook here: -->
+    <!-- sign my guestbook here: -->
