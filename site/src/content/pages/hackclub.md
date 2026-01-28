@@ -93,14 +93,13 @@ First, my fellow gap years (in no particular order):
 - [Cheru](https://cheru.dev/), for really making sure I was home at Hack Club. When I started my gap year I had been in Hack Club for less than 2 months and had < 100 messages in the Slack. You didn't hold that against me and I don't think I would've nearly felt at home with everyone if it wasn't for you.
 - [Acon](https://aconlin.com/), for everything.
 - [Phthallo](https://phthallo.com/), tspmo 67 :broken_heart:
-- [Lux](https://sporeball.dev/), though our time together was not very long you always built the coolest utilities
+- [Lux](https://sporeball.dev/), though our time together was not very long you always built the coolest utilities.
 - Rhys, for throwing together so many ape shit trips that I will never ever forget. Take the credit card points.
 - Nora - officer?
 
 And the other friends I met along the way:
 
-- [John Cohn](https://en.wikipedia.org/wiki/John_Cohn), for all the long phone calls about hardware. Genuinely an
-  honor to be able to call you my friend. Words cannot convey it.
+- [John Cohn](https://en.wikipedia.org/wiki/John_Cohn), for all the long phone calls about hardware. Genuinely an honor to be able to call you my friend. Words cannot convey how thankful I am to know you
 - [Strange Parts](https://www.youtube.com/@StrangeParts/featured), for being so incredibly magical. For adding in so much positivity in this world
 - [Max Wofford](https://maxwofford.com/), for giving endless advice
 - [Leo McElroy](https://leomcelroy.com/), for introducing me to Hack Club in the first place. Every single time I talk to you I am inspired by your work and what you do.

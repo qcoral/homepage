@@ -1,19 +1,38 @@
 @import "tailwindcss";
 @plugin '@tailwindcss/typography';
 
+@font-face {
+    font-family: "Monaspace Neon";
+    src:
+        url("/Monaspace Neon Var.woff2") format("woff2"),
+        url("/Monaspace Neon Var.woff") format("woff");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-mono:
+        "Monaspace Neon", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        monospace;
+}
+
 @layer utilities {
+    .prose {
+        @apply prose-sm 2xl:prose-base text-white/85;
+    }
     .prose a {
-        @apply text-pink-300 font-bold hover:bg-pink-400/70 no-underline;
+        @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline;
     }
     .prose h1 {
-        @apply text-3xl font-semibold;
+        @apply text-3xl font-semibold text-white;
     }
     .prose h3 {
-        @apply text-xl font-semibold;
+        @apply text-xl font-semibold text-white;
     }
 
     .prose p {
-        @apply leading-relaxed text-gray-300 prose-sm 2xl:prose-base;
+        @apply leading-relaxed;
     }
 
     /* Stronger override for Tailwind Typography which sets its own li spacing */
