@@ -58,7 +58,7 @@ async function getAccessToken() {
 
     console.log("Fetched new Spotify access token");
     const data = await response.json();
-    console.log(data);
+    // console.log(data);
     return data;
 }
 
@@ -98,7 +98,7 @@ export async function getNowPlaying(): Promise<NowPlayingData> {
     }
 
     const song = await response.json();
-    console.log(song);
+    // console.log(song);
 
     if (!song.item) {
         return { isPlaying: false };
@@ -122,7 +122,7 @@ export async function getNowPlaying(): Promise<NowPlayingData> {
         songUrl,
     };
 
-    console.log(now_playing_data);
+    // console.log(now_playing_data)
 
     return now_playing_data;
 }

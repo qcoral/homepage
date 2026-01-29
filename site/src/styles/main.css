@@ -19,13 +19,16 @@
 
 @layer utilities {
     .prose {
-        @apply prose-sm 2xl:prose-base text-white/85;
+        @apply prose-sm xl:prose-base text-white/85;
     }
     .prose a {
         @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline;
     }
     .prose h1 {
-        @apply text-3xl font-semibold text-white;
+        @apply text-3xl font-semibold;
+    }
+    .prose h2 {
+        /* @apply my-4; */
     }
     .prose h3 {
         @apply text-xl font-semibold text-white;

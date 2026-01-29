@@ -5,7 +5,7 @@ title: "adventures from Hack Club!"
 
 After graduating high school in June 2024, I took a gap year at Hack Club to run awesome programs! It was genuinely one of the most invaluable experiences I've ever had and I want to share all the adventures here.
 
-Shipping the experiences, so to speak.
+This page will mostly center around the work I did and my programs - I do plan on making extended chronciles for all the crazy adventures (definitely did not hijack a 3D printer 30 minutes away from MIT) but this will have to do for now
 
 ## Preamble
 
@@ -13,13 +13,13 @@ For context, the programs I run at Hack Club fall under a model called You Ship,
 
 It's a really flexible model that incentivizes shipping _real_ projects.
 
-_I also ran a few programs other than the ones listed here, but I don't consider them really significant enough to write about for now. Maybe another time_
+_I also ran a few programs other than the ones listed here, but I don't consider them really significant enough to write about for now. Maybe another time!_
 
 ## Hackpad
 
-[hackpad.hackclub.com](https://hackclub.hackclub.com)
+<span class="font-mono">[hackpad.hackclub.com](https://hackclub.hackclub.com)</span>
 
-This one is where it all started! This was the very first YSWS I started from scratch. The goal was pretty simple
+This one is where it all started! This was the very first YSWS I started from scratch. The goal was pretty simple: get teens building full-stack projects
 
 - Goals of the program
 - Hackpad airbnb
@@ -34,7 +34,7 @@ Self esteem? I don't know
 
 ## Infill
 
-[infill.hackclub.com](https://infill.hackclub.com) [RepRap Festival Video](https://www.youtube.com/watch?v=5G_g6yMLbMs)
+<span class="font-mono">[infill.hackclub.com](https://infill.hackclub.com) [YouTube Video](https://www.youtube.com/watch?v=5G_g6yMLbMs)</span>
 
 I distinctly remember around the end of January 2025 feeling awfully uninspired. I had just finished majority of fulfillment for Hackpad V1 and was now running Hackpad V2. I was really tired of macropads and wanted to run something else.
 

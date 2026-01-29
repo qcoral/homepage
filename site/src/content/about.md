@@ -21,9 +21,11 @@ If you ever see me in public, please say hi! You might just [[get something cool
 ### Explore my various adventures:
 
 [[gap year at Hack Club]](/hackclub) - [[e-sports & competitive gaming]](/esports) \
-[[events & cons I've been to]](/events) - [[origami, chess, and others]](/old-times)
+[[events & cons I've been to]](/events) - [WIP]
+
+ <!-- - [[origami, chess, and others]](/old-times) -->
 
 I've been on this planet for 19 years! Here's some of the stuff I have cobbled together in the meantime:
 
 - [Neutrino](https://github.com/the-openary/neutrino), a $200 USD printer that fits in a filament box!
-- Uhh need to add more
+- more coming soon!
