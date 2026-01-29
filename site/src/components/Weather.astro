@@ -1,7 +1,6 @@
 ---
-import { getWeather } from "../lib/weather";
-
-const weatherData = await getWeather();
+const url = new URL("/api/weather-cached", Astro.url);
+const weatherData = await fetch(url).then((res) => res.json());
 const current = weatherData.current;
 
 // Format time from ISO string
