@@ -1,6 +1,8 @@
 import type { APIRoute } from "astro";
 import { getWeather } from "../../lib/weather";
 
+export const prerender = false;
+
 const birthday = new Date("2006-01-11");
 const age = Math.floor(
     (Date.now() - birthday.getTime()) / (1000 * 60 * 60 * 24 * 365.25),
