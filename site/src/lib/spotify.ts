@@ -1,9 +1,6 @@
-const client_id =
-    process.env.SPOTIFY_CLIENT_ID ?? import.meta.env.SPOTIFY_CLIENT_ID;
-const client_secret =
-    process.env.SPOTIFY_CLIENT_SECRET ?? import.meta.env.SPOTIFY_CLIENT_SECRET;
-const refresh_token =
-    process.env.SPOTIFY_REFRESH_TOKEN ?? import.meta.env.SPOTIFY_REFRESH_TOKEN;
+const client_id = import.meta.env.SPOTIFY_CLIENT_ID;
+const client_secret = import.meta.env.SPOTIFY_CLIENT_SECRET;
+const refresh_token = import.meta.env.SPOTIFY_REFRESH_TOKEN;
 
 if (!client_id || !client_secret || !refresh_token) {
     throw new Error(
