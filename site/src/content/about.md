@@ -20,8 +20,8 @@ If you ever see me in public, please say hi! You might just [[get something cool
 
 ### Explore my various adventures:
 
-[[gap year at Hack Club]](/hackclub) - [[e-sports & competitive gaming]](/esports) \
-[[events & cons I've been to]](/events) - [WIP]
+[[gap year at Hack Club (WIP)]](/hackclub) - [[e-sports & competitive gaming (WIP)]](/esports) \
+[[events & cons I've been to]](/events) - [more coming soon!]
 
  <!-- - [[origami, chess, and others]](/old-times) -->
 

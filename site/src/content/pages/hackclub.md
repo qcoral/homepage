@@ -1,5 +1,6 @@
 ---
 title: "adventures from Hack Club!"
+draft: true
 # published: 2026-01-02
 ---
 
@@ -19,9 +20,20 @@ _I also ran a few programs other than the ones listed here, but I don't consider
 
 <span class="font-mono">[hackpad.hackclub.com](https://hackclub.hackclub.com)</span>
 
-This one is where it all started! This was the very first YSWS I started from scratch. The goal was pretty simple: get teens building full-stack projects
+This one is where it all started! This was the very first YSWS I started from scratch. The goal was pretty simple: get teens building full-stack projects. AKA CAD Design, PCB design, and firmware
 
-- Goals of the program
+I mean, how hard could it really have been?
+
+(image thing)
+
+I initially pitched this to Zach in late september, and finished
+
+I remember thinking I needed this ultra polished 3D render in order to launch. Then I was told we were sending an email out to 50,000 people about this today. That was something.
+
+Anyhow - I figured that maybe ~50 people would do this thing, and so I figured
+
+I took a 2 week trip to San Francisco.
+
 - Hackpad airbnb
 - How many were sent out to date
 - Some learnings:
@@ -29,8 +41,6 @@ This one is where it all started! This was the very first YSWS I started from sc
     - The very real cost of your own personal time
     - Leading teams and staying inspired
     - Not drowning in debt is very good for you, actually.
-
-Self esteem? I don't know
 
 ## Infill
 
@@ -48,8 +58,12 @@ And so on February 1st, sitting in my bedroom at 12:35 AM, I officially launched
 
 There were 2 key things to realize about this:
 
-1. I did not actually have a table booked at Open Sauce
-2. I had absolutely zero infrastructure built out for this.
+1. I did not actually have a table booked at RMRRF
+2. I had absolutely zero infrastructure built out for this. There wasn't even a website
+
+#1 could be dealt with later - #2 though, that needed to get resolved asap!
+
+And so I went ahead
 
 Post mortem
 
@@ -69,6 +83,12 @@ Biggest surprises:
 [[highway.hackclub.com]](https://highway.hackclub.com) [[Undercity Video]](https://www.youtube.com/watch?v=kaEFv7e49mo)
 
 I think this was the moment where I really established that hardware at Hack Club could work long term. That it wasn't just some pipe dream
+
+Fun fact about this one: Undercity actually started first!
+
+Final stats:
+
+-
 
 Our original figma designs where absolutely insane
 
@@ -99,12 +119,13 @@ First, my fellow gap years (in no particular order):
 
 And the other friends I met along the way:
 
-- [John Cohn](https://en.wikipedia.org/wiki/John_Cohn), for all the long phone calls about hardware. Genuinely an honor to be able to call you my friend. Words cannot convey how thankful I am to know you
+- [John Cohn](http://johncohn.org/), for all the long phone calls about hardware. Genuinely an honor to be able to call you my friend. Words cannot convey how thankful I am to know you
 - [Strange Parts](https://www.youtube.com/@StrangeParts/featured), for being so incredibly magical. For adding in so much positivity in this world
-- [Max Wofford](https://maxwofford.com/), for giving endless advice
+- [Max Wofford](https://maxwofford.com/), for giving endless advice on navigating my way through Hack Club. I don't think I would've made it nearly as far without you!
 - [Leo McElroy](https://leomcelroy.com/), for introducing me to Hack Club in the first place. Every single time I talk to you I am inspired by your work and what you do.
-- [Zach Latta](zachlatta.com), for taking a gamble on me. I cannot imagine
+- [Zach Latta](zachlatta.com), for taking a gamble on me. I cannot imagine where I would be right now if we didn't talk at Apocalypse
+- and the many, many people I met along the way. you know who you are.
 
-Life is weird. Weeks before I turned 17 I was convinced I was going to get into the [Overwatch League](https://en.wikipedia.org/wiki/Overwatch_League) and make a career after that. Then after retiring I was convinced I was going to do academia & research. Then less than a month from graduating I decided to take a gap year and move to another country. Who knows what'll happen next? Much to write about
+Life is weird. Weeks before I turned 17 I was convinced I was going to get into the [Overwatch League](https://en.wikipedia.org/wiki/Overwatch_League) and make a career after that. Then after retiring I was convinced I was going to do academia & research. Then less than a month from graduating I decided to take a gap year and move to another country. Who knows what'll happen next?
 
 If you've made it this far I commend you! Find me in person and I'll throw you something cool.
