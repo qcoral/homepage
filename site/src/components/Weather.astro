@@ -1,0 +1,90 @@
+---
+import { getWeather } from "../lib/weather";
+
+const weatherData = await getWeather();
+const current = weatherData.current;
+
+// Format time from ISO string
+const now = new Date();
+const formattedTime = now.toLocaleTimeString("en-US", {
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+    timeZone: "America/Toronto",
+});
+
+// SVG Icons
+const icons = {
+    sun: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>`,
+    moon: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>`,
+    cloud: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>`,
+    cloudSun: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="M20 12h2"/><path d="m19.07 4.93-1.41 1.41"/><path d="M15.947 12.65a4 4 0 0 0-5.925-4.128"/><path d="M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"/></svg>`,
+    cloudRain: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/></svg>`,
+    cloudDrizzle: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M8 19v1"/><path d="M8 14v1"/><path d="M16 19v1"/><path d="M16 14v1"/><path d="M12 21v1"/><path d="M12 16v1"/></svg>`,
+    cloudSnow: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M8 15h.01"/><path d="M8 19h.01"/><path d="M12 17h.01"/><path d="M12 21h.01"/><path d="M16 15h.01"/><path d="M16 19h.01"/></svg>`,
+    snowflake: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="2" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="22"/><path d="m20 16-4-4 4-4"/><path d="m4 8 4 4-4 4"/><path d="m16 4-4 4-4-4"/><path d="m8 20 4-4 4 4"/></svg>`,
+    cloudFog: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 17H7"/><path d="M17 21H9"/></svg>`,
+    cloudLightning: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"/><path d="m13 12-3 5h4l-3 5"/></svg>`,
+    droplet: `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>`,
+    unknown: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>`,
+};
+
+// Weather code descriptions and icons
+// Based on WMO Weather interpretation codes (from stellasphere/descriptions.json)
+const weatherCodes: Record<number, { description: string; icon: string }> = {
+    0: { description: "Clear", icon: icons.sun },
+    1: { description: "Mainly Clear", icon: icons.cloudSun },
+    2: { description: "Partly Cloudy", icon: icons.cloudSun },
+    3: { description: "Cloudy", icon: icons.cloud },
+    45: { description: "Foggy", icon: icons.cloudFog },
+    48: { description: "Rime Fog", icon: icons.cloudFog },
+    51: { description: "Light Drizzle", icon: icons.cloudDrizzle },
+    53: { description: "Drizzle", icon: icons.cloudDrizzle },
+    55: { description: "Heavy Drizzle", icon: icons.cloudDrizzle },
+    56: { description: "Light Freezing Drizzle", icon: icons.cloudDrizzle },
+    57: { description: "Freezing Drizzle", icon: icons.cloudDrizzle },
+    61: { description: "Light Rain", icon: icons.cloudRain },
+    63: { description: "Rain", icon: icons.cloudRain },
+    65: { description: "Heavy Rain", icon: icons.cloudRain },
+    66: { description: "Light Freezing Rain", icon: icons.cloudRain },
+    67: { description: "Freezing Rain", icon: icons.cloudRain },
+    71: { description: "Light Snow", icon: icons.cloudSnow },
+    73: { description: "Snow", icon: icons.cloudSnow },
+    75: { description: "Heavy Snow", icon: icons.snowflake },
+    77: { description: "Snow Grains", icon: icons.cloudSnow },
+    80: { description: "Light Showers", icon: icons.cloudRain },
+    81: { description: "Showers", icon: icons.cloudRain },
+    82: { description: "Heavy Showers", icon: icons.cloudRain },
+    85: { description: "Light Snow Showers", icon: icons.cloudSnow },
+    86: { description: "Snow Showers", icon: icons.snowflake },
+    95: { description: "Thunderstorm", icon: icons.cloudLightning },
+    96: {
+        description: "Light Thunderstorms With Hail",
+        icon: icons.cloudLightning,
+    },
+    99: {
+        description: "Thunderstorm With Hail",
+        icon: icons.cloudLightning,
+    },
+};
+
+const weatherInfo = weatherCodes[current.weather_code] || {
+    description: "Unknown",
+    icon: icons.unknown,
+};
+const isDay = current.is_day === 1;
+const dayNightIcon = isDay ? icons.sun : icons.moon;
+---
+
+<div class="flex flex-col gap-1 text-sm text-white/80 mx-8">
+    <div class="flex items-center gap-2">
+        <span class="text-white/70" set:html={dayNightIcon} />
+        <span>{formattedTime}</span>
+        <span class="text-white">Toronto, ON</span>
+    </div>
+    <div class="flex items-center gap-2">
+        <span class="text-white/70" set:html={weatherInfo.icon} />
+        <span class="text-white">{current.temperature_2m}°C</span>
+        <span>{weatherInfo.description}</span>
+    </div>
+</div>

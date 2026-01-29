@@ -5,21 +5,26 @@ import About from "../content/about.md";
 import Banner from "../components/Banner.astro";
 import Commit from "../components/Commit.astro";
 import Quotes from "../components/Quotes.astro";
+import NowPlaying from "../components/NowPlaying.astro";
+import Weather from "../components/Weather.astro";
+import "../styles/landing.css";
 ---
 
 <Layout>
-  <div class="max-w-2xl 2xl:max-w-3xl mx-auto">
-    <Banner />
-    <hr class="border-gray-600 border-2 mt-8 -mb-1" />
-    <div
-      class="pt-8 prose-sm lg:prose-base transition-[font-size] duration-200 ease-out prose prose-invert max-w-none"
-    >
-      <About />
+    <div class="max-w-2xl 2xl:max-w-3xl mx-auto">
+        <Banner />
+        <hr class="border-gray-600 border-2 mt-8 -mb-1" />
+        <div
+            class="pt-0 transition-[font-size] duration-200 ease-out landing max-w-none"
+        >
+            <About />
+        </div>
+        <hr class="border-gray-600 border-2 mt-8 mb-6" />
+        <div class="flex flex-col justify-center">
+            <div class="flex justify-between"><NowPlaying /><Weather /></div>
+            <hr class="my-6 border-t border border-gray-600" />
+            <Quotes />
+            <Commit />
+        </div>
     </div>
-    <hr class="border-gray-600 border-2 mt-8 -mb-1" />
-    <div class="flex flex-col justify-center">
-      <Quotes />
-      <Commit />
-    </div>
-  </div>
 </Layout>

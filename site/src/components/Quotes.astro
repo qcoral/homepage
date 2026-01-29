@@ -1,6 +1,6 @@
 ---
 // Render a random quote from quotelist.yaml
-export const prerender = false
+export const prerender = false;
 import { getEntry } from "astro:content";
 
 const quotelist = await getEntry("quotelist", "quotelist");
@@ -9,18 +9,18 @@ const randomIndex = Math.floor(Math.random() * quotes.length);
 const randomQuote = quotes[randomIndex];
 ---
 
-<div class="mt-8 mb-4 text-center">
-  <blockquote class="text-md text-gray-400 mb-4">
-    "{randomQuote.text}"
-  </blockquote>
-  {
-    randomQuote.author && (
-      <cite class="text-sm text-gray-500 italic">
-        — {randomQuote.author}
-        {randomQuote.source && (
-          <span class="text-gray-600"> ({randomQuote.source})</span>
-        )}
-      </cite>
-    )
-  }
+<div class="my-4 text-center">
+    <blockquote class="text-sm text-gray-400 mb-4">
+        "{randomQuote.text}"
+    </blockquote>
+    {
+        randomQuote.author && (
+            <cite class="text-xs text-gray-500 italic">
+                — {randomQuote.author}
+                {randomQuote.source && (
+                    <span class="text-gray-600"> ({randomQuote.source})</span>
+                )}
+            </cite>
+        )
+    }
 </div>
