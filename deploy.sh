@@ -4,7 +4,7 @@
 git fetch origin astro-ver
 if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/astro-ver)" ]; then
     echo "new commit detected!! pulling changes and rebuilding :3"
-    git reset --hard HEAD
+    git reset --hard origin/astro-ver
     cd site
     killall MainThread
     npm run build
