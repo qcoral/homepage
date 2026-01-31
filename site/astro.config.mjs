@@ -8,23 +8,26 @@ import node from "@astrojs/node";
 
 // https://astro.build/config
 export default defineConfig({
-  vite: {
-    plugins: [tailwindcss()],
-  },
-
-  markdown: {
-    rehypePlugins: [
-      [
-        rehypeExternalLinks,
-        {
-          target: "_blank",
-          rel: ["noopener", "noreferrer"],
+    vite: {
+        plugins: [tailwindcss()],
+        server: {
+            allowedHosts: [".ngrok-free.app", ".ngrok.io"],
         },
-      ],
-    ],
-  },
+    },
 
-  adapter: node({
-    mode: "standalone",
-  }),
+    markdown: {
+        rehypePlugins: [
+            [
+                rehypeExternalLinks,
+                {
+                    target: "_blank",
+                    rel: ["noopener", "noreferrer"],
+                },
+            ],
+        ],
+    },
+
+    adapter: node({
+        mode: "standalone",
+    }),
 });

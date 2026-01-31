@@ -5,17 +5,22 @@ import "../styles/main.css";
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>alex!!</title>
-    <link rel="icon" href="favicon.png" type="image/x-icon" />
-  </head>
-  <body
-    class="min-h-screen font-mono bg-black bg-[url('/bg.svg')] bg-cover bg-no-repeat bg-fixed bg-center"
-  >
-    <div class="px-8 py-12">
-      <slot />
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="alex ren" />
+        <meta
+            name="description"
+            content="alex here! this is my personal site. has stuff about me, my projects, and writing about what i do"
+        />
+        <title>alex!!</title>
+        <link rel="icon" href="favicon.png" type="image/x-icon" />
+    </head>
+    <body
+        class="min-h-screen font-mono bg-black bg-[url('/bg.svg')] bg-cover bg-no-repeat bg-fixed bg-center"
+    >
+        <div class="px-8 py-12">
+            <slot />
+        </div>
+    </body>
 </html>
