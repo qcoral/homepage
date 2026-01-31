@@ -75,7 +75,7 @@ const isDay = current.is_day === 1;
 const dayNightIcon = isDay ? icons.sun : icons.moon;
 ---
 
-<div class="flex flex-col gap-1 text-sm text-white/80 mx-8">
+<div class="flex flex-col gap-1 text-sm text-white/80 ml-4 mr-8">
   <div class="flex items-center gap-2">
     <span class="text-white/70" set:html={dayNightIcon} />
     <span>{formattedTime}</span>
