@@ -11,20 +11,24 @@ import "../styles/landing.css";
 ---
 
 <Layout>
-    <div class="max-w-2xl 2xl:max-w-3xl mx-auto">
-        <Banner />
-        <hr class="border-gray-600 border-2 mt-8 -mb-1" />
-        <div
-            class="pt-0 transition-[font-size] duration-200 ease-out landing max-w-none"
-        >
-            <About />
-        </div>
-        <hr class="border-gray-600 border-2 mt-8 mb-6" />
-        <div class="flex flex-col justify-center">
-            <div class="flex justify-between"><NowPlaying /><Weather /></div>
-            <hr class="my-6 border-t border border-gray-600" />
-            <Quotes />
-            <Commit />
-        </div>
+  <div class="max-w-2xl 2xl:max-w-3xl mx-auto">
+    <Banner />
+    <hr class="border-gray-600 border-2 mt-5 md:mt-8 -mb-2 md:-mb-1" />
+    <div
+      class="pt-0 transition-[font-size] duration-150 ease-in-out landing max-w-none"
+    >
+      <About />
     </div>
+    <hr class="border-gray-600 border-2 mt-8 mb-6" />
+    <div class="flex flex-col justify-center">
+      <div
+        class="flex flex-col md:flex-row space-y-4 md:space-y-0 justify-between"
+      >
+        <NowPlaying /><Weather />
+      </div>
+      <hr class="my-6 border-t border border-gray-600" />
+      <Quotes />
+      <Commit />
+    </div>
+  </div>
 </Layout>
