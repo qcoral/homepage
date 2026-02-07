@@ -6,7 +6,7 @@ draft: true
 
 After graduating high school in June 2024, I took a gap year at Hack Club to run awesome programs! It was genuinely one of the most invaluable experiences I've ever had and I want to share all the adventures here.
 
-This page will mostly center around the work I did and my programs - I do plan on making extended chronciles for all the crazy adventures (definitely did not hijack a 3D printer 30 minutes away from MIT) but this will have to do for now
+This page will mostly center around the work I did and my programs - I do plan on making extended chronciles for all the crazy adventures (definitely did not hijack a 3D printer 30 minutes away from MIT) but this will have to do for now. Extension coming soon
 
 ## Preamble
 
@@ -20,17 +20,27 @@ _I also ran a few programs other than the ones listed here, but I don't consider
 
 <span class="font-mono">[hackpad.hackclub.com](https://hackclub.hackclub.com)</span>
 
-This one is where it all started! This was the very first YSWS I started from scratch. The goal was pretty simple: get teens building full-stack projects. AKA CAD Design, PCB design, and firmware
+This one is where it all started! This was the very first YSWS I started from scratch. The goal was pretty simple: get teens building full-stack projects. AKA CAD Design, PCB design, and firmware.
 
-I mean, how hard could it really have been?
+Another goal was to also build agency. Instead of having eveything be spoon-fed tutorials, I was going to push people and direct them to the same leading resources that I had learned from as a kid. I wanted everyone to make real things. I didn't want what we did to only be impressive in the scope of Hack Club. I wanted it to be impressive in the wider world.
 
-(image thing)
+I initially pitched this to Zach in late september, and finished everything in roughly 2 ish weeks (a lot of the slowdown came from having to deal with int'l logistics of another program)
 
-I initially pitched this to Zach in late september, and finished
+I remember explaining that I needed this ultra polished 3D render in order to launch. I was then told we were sending an email out to 50,000 people about this at 4pm the same day.
 
-I remember thinking I needed this ultra polished 3D render in order to launch. Then I was told we were sending an email out to 50,000 people about this today. That was something.
+Here's an excerpt of the original email:
 
-Anyhow - I figured that maybe ~50 people would do this thing, and so I figured
+![alt text](/hackclub/hackpad/email.png)
+
+Anyhow - I figured that maybe ~50 people would do this thing, and so I figured I could assemble every single macropad directly. I used to sell keyboards; how hard could a few macropads really be?
+
+(image of me just starting my gap year)
+
+_oh how naive I was..._
+
+Due October 21st. 3 weeks. Just 3 short weeks, how hard could it be?
+
+Anyways, by the time we even launched we had hit 200 people in the channel, which was pretty high for a YSWS program at the time, especially run by a gap year alone. The hype was high. Once everything was
 
 I took a 2 week trip to San Francisco.
 

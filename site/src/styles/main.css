@@ -34,6 +34,10 @@
         @apply text-xl font-semibold text-white;
     }
 
+    .prose img {
+        @apply mx-auto my-4 rounded-lg;
+    }
+
     .prose p {
         @apply leading-relaxed;
     }

@@ -10,15 +10,18 @@ const randomQuote = quotes[randomIndex];
 ---
 
 <div class="my-4 text-center">
-    <blockquote class="text-sm text-gray-400 mb-4">
-        "{randomQuote.text}"
+    <blockquote class="text-sm text-gray-400/67 mb-4 italic">
+        {randomQuote.text}
     </blockquote>
     {
         randomQuote.author && (
-            <cite class="text-xs text-gray-500 italic">
+            <cite class="text-xs text-gray-400/50 italic">
                 — {randomQuote.author}
                 {randomQuote.source && (
-                    <span class="text-gray-600"> ({randomQuote.source})</span>
+                    <span class="text-gray-400/50">
+                        {" "}
+                        ({randomQuote.source})
+                    </span>
                 )}
             </cite>
         )

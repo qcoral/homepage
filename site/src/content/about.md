@@ -8,7 +8,7 @@ Want to hang out? Find me at:
 
 <div class="text-center">
 
-| [github](https://github.com/qcoral) ~ [twitter](https://twitter.com/qcoral_) ~ [alexren[at]hackclub.com](mailto:alexren@hackclub.com) |
+| [github](https://github.com/qcoral) ~ [twitter](https://twitter.com/qcoral_) ~ [hi[at]dari.zone](mailto:hi@dari.zone) |
 
 </div>
 
@@ -25,7 +25,7 @@ If you ever see me in public, please say hi! You might just [[get something cool
 
  <!-- - [[origami, chess, and others]](/old-times) -->
 
-I've been on this planet for 19 years! Here's some of the stuff I have cobbled together in the meantime:
+I've been on this planet for 20 years! Here's some of the stuff I have cobbled together in the meantime:
 
 - [Neutrino](https://github.com/the-openary/neutrino), a $200 USD printer that fits in a filament box!
 - more coming soon!
