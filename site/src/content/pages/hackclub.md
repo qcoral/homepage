@@ -1,5 +1,5 @@
 ---
-title: "adventures from Hack Club!"
+title: "Adventures from Hack Club!"
 draft: true
 # published: 2026-01-02
 ---
@@ -30,7 +30,7 @@ I remember explaining that I needed this ultra polished 3D render in order to la
 
 Here's an excerpt of the original email:
 
-![alt text](/hackclub/hackpad/email.png)
+![hackpad email](/hackclub/hackpad/email.png)
 
 Anyhow - I figured that maybe ~50 people would do this thing, and so I figured I could assemble every single macropad directly. I used to sell keyboards; how hard could a few macropads really be?
 
@@ -38,11 +38,52 @@ Anyhow - I figured that maybe ~50 people would do this thing, and so I figured I
 
 _oh how naive I was..._
 
-Due October 21st. 3 weeks. Just 3 short weeks, how hard could it be?
+Anyways, by the time we even launched we had hit 200 people in the channel, which was pretty high for a YSWS program at the time, especially run by a gap year alone. The hype was high. Once everything was fully launched however, that was when the real chaos would begin.
 
-Anyways, by the time we even launched we had hit 200 people in the channel, which was pretty high for a YSWS program at the time, especially run by a gap year alone. The hype was high. Once everything was
+Shortly after launch, Zach threw me an ace by setting me up with [Joe Scotto](https://www.youtube.com/@joe_scotto) for an AMA - all of a sudden I had an event to run!
 
-I took a 2 week trip to San Francisco.
+![AMA](/hackclub/hackpad/ama.png)
+
+One thing I think that really helped
+
+As the program was wrapping up, it was just about time for CalHacks 11.0 that year, with GitHub Universe following the weekend after. I made a deal with Zach where in exchange for allowing me to work remotely for 2 weeks in SF, I would be dialed tf in. Deal!
+
+(collage of San Francisco Trip)
+
+Thomas let me crash at his place, which I was super thankful for. One thing I was _not_ ready for however, was SF prices. Outside of free event food I was eating almost exclusively bread and butter sandwiches. Maybe a bit of discounted salami from safeway if I was feeling fancy.
+
+Anyways, that faithful day of October 21st finally came. I was sitting at Delah Cafe (thank you Thomas for the recommendation!) when I started going through the PRs and approving projects. As the day went on though, my eyes slowly widened as I could not believe the # of projects that were streaming in.
+
+Remember how I originally guessed there would be 50 submissions tops? Yeah this was completely off-mark. We ended up with over 200 of them.
+
+I originally promised to handle all ordering, assembly, and general fulfillment logistics. I want you to quickly absorb just how herculean of a task this was about to become. Each macropad _averages_ 3 completely custom 3D printed parts, 1 custom PCB, and a completely different BOM with roughly 5! different combinations.
+
+That is roughly 600 custom 3D printed parts that need to be printed at HQ, grouped, and then kitted with 5000+ parts. Every single macropad was a unique combination that had to be searched for.
+
+(sneak peak preview into hackpad airbnb)
+
+Keep this in mind for later on in this story!
+
+Before we could even get started, we needed to get review done.
+
+SF was great. I will have to write about my entire experience proper at somepoint but just for some highlights:
+
+- worked 12 hour days on weekedays
+- went to CalHacks and met so so many cool people
+- met verda at noisebridge!
+- went to Steve Jobs' house for Halloween!
+
+Needless to say, what followed was absolute trenchwork. I remember setting up a livestream
+
+![livestream image](/hackclub/hackpad/livestream.png)
+
+Holy fuck. November was _hard_. Can you imagine?
+
+I vividly remember one conversation I had with Zach towards the end of November where we were just wondering how on _earth_ were we actually going to get this done? If I was working on my current track record we were on pace to finish this maybe by February.
+
+What finally got us through this block was
+
+The Airbnb
 
 - Hackpad airbnb
 - How many were sent out to date
@@ -51,6 +92,10 @@ I took a 2 week trip to San Francisco.
     - The very real cost of your own personal time
     - Leading teams and staying inspired
     - Not drowning in debt is very good for you, actually.
+
+Anyways, I think hackpad is what really set the initial foundations for what would eventually become a 10x in hardware at Hack Club.
+
+As of writing this, I've sent out over
 
 ## Infill
 
@@ -64,7 +109,7 @@ Come Friday night I had a flash of brilliance - what if we just ran it anyways? 
 
 And so on February 1st, sitting in my bedroom at 12:35 AM, I officially launched what would become infill with nothing but a slack post.
 
-<img src="/hackclub/infill/announcement.png" alt="Announcement" width="600" class="mx-auto my-4 rounded-lg" />
+<img src="/hackclub/infill/announcement.png" alt="Announcement" width="auto" class="mx-auto my-4 rounded-lg" />
 
 There were 2 key things to realize about this:
 
