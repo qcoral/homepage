@@ -46,11 +46,11 @@
 }
 
 .landing ul {
-    @apply my-4 pl-6 list-disc;
+    @apply mb-4 pl-6 list-disc;
 }
 
 .landing ol {
-    @apply my-4 pl-6 list-decimal;
+    @apply mb-4 pl-6 list-decimal;
 }
 
 .landing li {
