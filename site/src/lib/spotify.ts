@@ -28,38 +28,43 @@ async function readBodySafe(response: Response): Promise<any> {
     }
 }
 
-async function getAccessToken() {
-    const response = await fetch(TOKEN_ENDPOINT, {
-        method: "POST",
-        headers: {
-            Authorization: `Basic ${basic}`,
-            "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body: new URLSearchParams({
-            grant_type: "refresh_token",
-            refresh_token,
-        }),
-    });
-
-    if (!response.ok) {
-        const details = await readBodySafe(response);
-        const message =
-            details?.error_description ||
-            details?.error ||
-            (typeof details === "string" && details) ||
-            `HTTP ${response.status}`;
-        console.error("Spotify token error:", {
-            status: response.status,
-            statusText: response.statusText,
-            body: details,
+async function getAccessToken(): Promise<{ access_token: string } | null> {
+    try {
+        const response = await fetch(TOKEN_ENDPOINT, {
+            method: "POST",
+            headers: {
+                Authorization: `Basic ${basic}`,
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams({
+                grant_type: "refresh_token",
+                refresh_token,
+            }),
         });
-        throw new Error(`Spotify token error: ${message}`);
-    }
 
-    console.log("Fetched new Spotify access token");
-    const data = await response.json();
-    // console.log(data);
-    return data;
+        if (!response.ok) {
+            const details = await readBodySafe(response);
+            const message =
+                details?.error_description ||
+                details?.error ||
+                (typeof details === "string" && details) ||
+                `HTTP ${response.status}`;
+            console.error("Spotify token error:", {
+                status: response.status,
+                statusText: response.statusText,
+                body: details,
+            });
+            return null;
+        }
+
+        console.log("Fetched new Spotify access token");
+        const data = await response.json();
+        // console.log(data);
+        return data;
+    } catch (error) {
+        console.error("Spotify token fetch failed:", error);
+        return null;
+    }
 }
 
 export interface NowPlayingData {
@@ -72,7 +77,11 @@ export interface NowPlayingData {
 }
 
 export async function getNowPlaying(): Promise<NowPlayingData> {
-    const { access_token } = await getAccessToken();
+    const tokenData = await getAccessToken();
+    if (!tokenData) {
+        return { isPlaying: false };
+    }
+    const { access_token } = tokenData;
 
     console.log("Fetching now playing track from Spotify");
 
