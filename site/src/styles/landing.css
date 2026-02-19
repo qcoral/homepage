@@ -1,99 +1,99 @@
 .pfp-landing {
-    background-image: url("/pfp_asuka.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: background-image 0.05s ease;
+  background-image: url("/pfp_asuka.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.05s ease;
 }
 .pfp-landing:hover {
-    background-image: url("https://raw.githubusercontent.com/qcoral/assets/refs/heads/main/pfp-irl.jpeg");
+  background-image: url("https://raw.githubusercontent.com/qcoral/assets/refs/heads/main/pfp-irl.jpeg");
 }
 
 .landing {
-    @apply text-sm lg:text-[0.925rem] xl:text-[1rem] text-white/85 leading-relaxed;
+  @apply text-sm lg:text-[0.925rem] xl:text-[1rem] text-white/85 leading-relaxed;
 }
 
 .landing h1 {
-    @apply text-3xl font-semibold text-white mt-8 mb-4;
+  @apply text-3xl font-semibold text-white mt-8 mb-4;
 }
 
 .landing h2 {
-    @apply text-2xl font-semibold text-white mt-8 mb-4;
+  @apply text-2xl font-semibold text-white mt-8 mb-4;
 }
 
 .landing h3 {
-    @apply text-xl font-semibold text-white mt-6 mb-3;
+  @apply text-xl font-semibold text-white mt-6 mb-3;
 }
 
 .landing h4 {
-    @apply text-lg font-semibold text-white mt-4 mb-2;
+  @apply text-lg font-semibold text-white mt-4 mb-2;
 }
 
 .landing p {
-    @apply my-4 leading-relaxed;
+  @apply my-4 leading-relaxed;
 }
 
 .landing a {
-    @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline;
+  @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline;
 }
 
 .landing strong {
-    @apply font-semibold text-white;
+  @apply font-semibold text-white;
 }
 
 .landing em {
-    @apply italic;
+  @apply italic;
 }
 
 .landing ul {
-    @apply mb-4 pl-6 list-disc;
+  @apply mb-4 pl-6 list-disc;
 }
 
 .landing ol {
-    @apply mb-4 pl-6 list-decimal;
+  @apply mb-4 pl-6 list-decimal;
 }
 
 .landing li {
-    @apply my-1;
+  @apply my-1 ml-4;
 }
 
 .landing li > ul,
 .landing li > ol {
-    @apply my-1;
+  @apply my-1;
 }
 
 .landing blockquote {
-    @apply border-l-4 border-gray-500 pl-4 my-4 italic text-white/70;
+  @apply border-l-4 border-gray-500 pl-4 my-4 italic text-white/70;
 }
 
 .landing code {
-    @apply font-mono text-sm bg-white/10 px-1.5 py-0.5 rounded;
+  @apply font-mono text-sm bg-white/10 px-1.5 py-0.5 rounded;
 }
 
 .landing pre {
-    @apply my-4 p-4 bg-white/5 rounded-lg overflow-x-auto;
+  @apply my-4 p-4 bg-white/5 rounded-lg overflow-x-auto;
 }
 
 .landing pre code {
-    @apply bg-transparent p-0;
+  @apply bg-transparent p-0;
 }
 
 .landing hr {
-    @apply border-gray-600 my-8;
+  @apply border-gray-600 my-8 border-1;
 }
 
 .landing table {
-    @apply w-full my-4 text-left;
+  @apply w-full my-4 text-left;
 }
 
 .landing th {
-    @apply font-semibold text-white pb-2 border-b border-gray-600;
+  @apply font-semibold text-white pb-2 border-b border-gray-600;
 }
 
 .landing td {
-    @apply py-2 border-b border-gray-700;
+  @apply py-2 border-b border-gray-700;
 }
 
 .landing img {
-    @apply rounded-lg my-4;
+  @apply rounded-lg my-4;
 }

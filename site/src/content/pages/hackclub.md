@@ -64,7 +64,11 @@ That is roughly 600 custom 3D printed parts that need to be printed at HQ, group
 
 Keep this in mind for later on in this story!
 
-Before we could even get started, we needed to get review done.
+Before we could even get started with assembly though, we still needed to get review done! 200+ PRs is no joke. I literally pulled 12 hour days in SF just going through PRs. My GitHub became very green. We got through them by the end of the week, and soon enough it was time for GitHub Universe!
+
+(picture of github universe)
+
+Universe was awesome. I cannot
 
 SF was great. I will have to write about my entire experience proper at somepoint but just for some highlights:
 
@@ -81,21 +85,21 @@ Holy fuck. November was _hard_. Can you imagine?
 
 I vividly remember one conversation I had with Zach towards the end of November where we were just wondering how on _earth_ were we actually going to get this done? If I was working on my current track record we were on pace to finish this maybe by February.
 
-What finally got us through this block was
+What finally got us through the block was the fated Hackpad AirBNB.
 
 The Airbnb
 
 - Hackpad airbnb
 - How many were sent out to date
 - Some learnings:
-    - The exponential cost of custom orders
-    - The very real cost of your own personal time
-    - Leading teams and staying inspired
-    - Not drowning in debt is very good for you, actually.
+  - The exponential cost of custom orders
+  - The very real cost of your own personal time
+  - Leading teams and staying inspired
+  - Not drowning in debt is very good for you, actually.
 
 Anyways, I think hackpad is what really set the initial foundations for what would eventually become a 10x in hardware at Hack Club.
 
-As of writing this, I've sent out over
+As of writing this, we've sent out over 1000 hackpad kits. That's 1000 macropads. Isn't that just a little crazy?
 
 ## Infill
 
@@ -123,7 +127,7 @@ And so I went ahead
 Post mortem
 
 - How it started and how banged together it was
-    - Hosting th
+  - Hosting th
 - The actual buildup to the event & the crazy logistics behind that
 - The event itself
 - Some post mortem thoughts
@@ -137,13 +141,30 @@ Biggest surprises:
 
 [[highway.hackclub.com]](https://highway.hackclub.com) [[Undercity Video]](https://www.youtube.com/watch?v=kaEFv7e49mo)
 
-I think this was the moment where I really established that hardware at Hack Club could work long term. That it wasn't just some pipe dream
+I think this was the moment where I really established that hardware at Hack Club could work long term. That it wasn't just some pipe dream, and that we could get a meaningfully make it work.
 
-Fun fact about this one: Undercity actually started first!
+Fun fact about this one: Undercity actually started first! Highway was built almost entirely to be a funnel into Undercity.
 
 Final stats:
 
--
+- 16430 hours spent on finished projects
+- 845 projects approved
+- 50+ projects
+- 3 months of insane adventure.
+
+Highway was by far the hardest thing I had _ever_ run. Conversations for this started before Infill had even launched.
+
+Important thing to note: in April I was at TCT + Rapid, where I made a _ton_ of connections there
+
+It was fucking _hard_. Prusa ghosted us.
+
+Who didn't ghost?
+
+I remember taking a meeting at 5am.
+
+I distinctly remember sometime around the 4th week of June when we realized we were _not_ going to be able to get.
+
+I tackled some really interesting problems during this time.
 
 Our original figma designs where absolutely insane
 
@@ -160,17 +181,17 @@ It'll be approximately the end of January 2026 by the time this document comes o
 
 As cliche as it sounds, I could have never, _ever_ imagined the adventures that I went on as a result of Hack Club. Things I only dreamed of before. I feel so incredibly lucky that I am in a position to do such good work
 
-I want to give a thank you to the following people I've had the pleasure of talking with and continue to talk to over the past year.
+I want to give a thank you to the following people I've had the pleasure of talking with over the past year, and continue to keep talking with!
 
 First, my fellow gap years (in no particular order):
 
 - [Ben](https://malted.dev/), for making the world always seem a little bigger every time we hang out. It's genuinely magic
 - [Cheru](https://cheru.dev/), for really making sure I was home at Hack Club. When I started my gap year I had been in Hack Club for less than 2 months and had < 100 messages in the Slack. You didn't hold that against me and I don't think I would've nearly felt at home with everyone if it wasn't for you.
-- [Acon](https://aconlin.com/), for everything.
+- [Acon](https://aconlin.com/), for never losing your creativity.
 - [Phthallo](https://phthallo.com/), tspmo 67 :broken_heart:
 - [Lux](https://sporeball.dev/), though our time together was not very long you always built the coolest utilities.
 - Rhys, for throwing together so many ape shit trips that I will never ever forget. Take the credit card points.
-- Nora - officer?
+- Nora, for having the coolest retro aesthetics.
 
 And the other friends I met along the way:
 
