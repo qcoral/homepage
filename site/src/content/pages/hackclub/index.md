@@ -34,7 +34,7 @@ Here's an excerpt of the original email:
 
 Anyhow - I figured that maybe ~50 people would do this thing, and so I figured I could assemble every single macropad directly. I used to sell keyboards; how hard could a few macropads really be?
 
-(image of me just starting my gap year)
+<!-- (image of me just starting my gap year) -->
 
 _oh how naive I was..._
 
@@ -48,7 +48,7 @@ One thing I think that really helped
 
 As the program was wrapping up, it was just about time for CalHacks 11.0 that year, with GitHub Universe following the weekend after. I made a deal with Zach where in exchange for allowing me to work remotely for 2 weeks in SF, I would be dialed tf in. Deal!
 
-(collage of San Francisco Trip)
+<!-- (collage of San Francisco Trip) -->
 
 Thomas let me crash at his place, which I was super thankful for. One thing I was _not_ ready for however, was SF prices. Outside of free event food I was eating almost exclusively bread and butter sandwiches. Maybe a bit of discounted salami from safeway if I was feeling fancy.
 
@@ -60,46 +60,53 @@ I originally promised to handle all ordering, assembly, and general fulfillment 
 
 That is roughly 600 custom 3D printed parts that need to be printed at HQ, grouped, and then kitted with 5000+ parts. Every single macropad was a unique combination that had to be searched for.
 
-(sneak peak preview into hackpad airbnb)
-
 Keep this in mind for later on in this story!
 
 Before we could even get started with assembly though, we still needed to get review done! 200+ PRs is no joke. I literally pulled 12 hour days in SF just going through PRs. My GitHub became very green. We got through them by the end of the week, and soon enough it was time for GitHub Universe!
 
-(picture of github universe)
+![gh universe](/hackclub/hackpad/universe.png)
 
-Universe was awesome. I cannot
+After that, it was time to head back home to Burlington!
 
 SF was great. I will have to write about my entire experience proper at somepoint but just for some highlights:
 
-- worked 12 hour days on weekedays
 - went to CalHacks and met so so many cool people
-- met verda at noisebridge!
+- met [Verda](https://x.com/verdakorz) at noisebridge!
+- All of GitHub Universe. The world felt so big.
 - went to Steve Jobs' house for Halloween!
 
-Needless to say, what followed was absolute trenchwork. I remember setting up a livestream
+Once I was back in Vermont, I had to tackle the logistics of just how I was going to ship the 200 macropads that we owed people. Needless to say, what followed was absolute trenchwork. I remember setting up a livestream on the Hack Club twitch, which had been dead for so long it might as well have grown cobwebs.
 
 ![livestream image](/hackclub/hackpad/livestream.png)
+_(local teenage deliqnuent attempts to resurrect twitch chat, circa november 2024)_
 
-Holy fuck. November was _hard_. Can you imagine?
+What followed was a solid 5 weeks of waiting for parts to arrive, 3D printing en masse, assembling macropads upon macropads piece by piece, and long nights of sleeping at HQ. It seemed like there was going to be no end to the madness.
 
-I vividly remember one conversation I had with Zach towards the end of November where we were just wondering how on _earth_ were we actually going to get this done? If I was working on my current track record we were on pace to finish this maybe by February.
+I vividly remember one conversation I had with Zach towards the middle of December where we were just wondering how on _earth_ were we actually going to get this done? If I was working on my current track record we were on pace to finish this maybe by February if we were lucky.
+
+February? Absolutely not. We needed something to change.
 
 What finally got us through the block was the fated Hackpad AirBNB.
 
-The Airbnb
+![airbnb image](/hackclub/hackpad/bnb_bed.png)
 
-- Hackpad airbnb
-- How many were sent out to date
-- Some learnings:
-  - The exponential cost of custom orders
-  - The very real cost of your own personal time
-  - Leading teams and staying inspired
-  - Not drowning in debt is very good for you, actually.
+I took along several Hack Clubbers with me, and for 1 week straight we did nothing but assembled Hackpads. Highlights:
+
+- Entire place smelled like weed the moment we got there
+- Made the Canada Post worker crash out by dropping 100 hackpads 5 minutes before they closed
+- Somehow squeezed in a Toronto meetup planned days before??
+
+![meetup](/hackclub/hackpad/meetup.png)
+
+I really ought to make this section better, but a tl;dr of my learnings are:
+
+- Custom orders may seem simple for ~10, but make that 200 and suddenly you end with 10^917 different possibilities.
+- Your personal time is very real cost! Anything that saves you money by costing time is not actually saving you much money.
+- Always stay inspired. Your team will carry whatever energy you have.
 
 Anyways, I think hackpad is what really set the initial foundations for what would eventually become a 10x in hardware at Hack Club.
 
-As of writing this, we've sent out over 1000 hackpad kits. That's 1000 macropads. Isn't that just a little crazy?
+As of writing this, we've sent out over 1000 hackpad kits. That's 1000 macropads, made by 1000 unique teenagers. I think that's more than the rest of the mechanical keyboard community combined. It's a little crazy to think about sometimes.
 
 ## Infill
 
@@ -118,16 +125,43 @@ And so on February 1st, sitting in my bedroom at 12:35 AM, I officially launched
 There were 2 key things to realize about this:
 
 1. I did not actually have a table booked at RMRRF
-2. I had absolutely zero infrastructure built out for this. There wasn't even a website
+2. I had absolutely zero infrastructure built out for this.
 
 #1 could be dealt with later - #2 though, that needed to get resolved asap!
 
-And so I went ahead
+I really didn't want to repeat a bunch of boilerplate code for the website, so I decided to use [Astro Starlight] as a docs template and then
+
+Wouldn't it be cool to see everyone else's progress?
+
+The problem is I knew exactly 0 infrastructure, but god was I good at markdown. And so the most sensible thing to do wasn't to dynamically pull from the repositories in the built site, no no no, it was to _combine the other journals directly into the repository_ and rebuild each time.
+
+This was the most vibe coded script ever that broke the moment anyone put anything in wrong. Here's how it worked:
+
+1. First, it went throught the entire .yaml file and read the list of projects
+2. Next, for each project in the .yaml file, stitch together the raw URL for the journal.md file and then download it locally
+3. After that, check the local copy of the repository for any diffs
+4. If diffs exist, make a commit with the changes!
+
+_This ran entirely on GitHub actions on 30-minute timer, so as of writing this there has been 13,692 workflow runs. Thank you GitHub_
+
+A bit of testing later and the script did in fact work! #2 resolved, time to deal with #1.
+
+When I originally applied for an exhibitor booth,
+
+I shot out an email to Justin from RMRRF asking for a table for teenagers. Here's what it looked like
+
+$7000. That was over half a year's worth of my rent at the time. All for 5 days.
+
+No other option, I suppose. If we got hotels for everyone it would've been even more expensive. I
+
+To the host's credit, it was very, very nice.
+
+The actual event itself was genuinely magical. The YouTubers being there really legitamized their projects
 
 Post mortem
 
 - How it started and how banged together it was
-  - Hosting th
+    - Hosting th
 - The actual buildup to the event & the crazy logistics behind that
 - The event itself
 - Some post mortem thoughts
@@ -141,7 +175,9 @@ Biggest surprises:
 
 [[highway.hackclub.com]](https://highway.hackclub.com) [[Undercity Video]](https://www.youtube.com/watch?v=kaEFv7e49mo)
 
-I think this was the moment where I really established that hardware at Hack Club could work long term. That it wasn't just some pipe dream, and that we could get a meaningfully make it work.
+I think this was the moment where we really established that hardware at Hack Club could work long term. That it wasn't just some pipe dream, and that we could get a meaningfully make it work.
+
+Highway was a program designed to level you up as a hardware builder, whether or not you even knew what hardware was. You could submit _any_ design, get up to $350 USD to build it, and also then get invited to Undercity, which was the biggest hardware hackathon ever.
 
 Fun fact about this one: Undercity actually started first! Highway was built almost entirely to be a funnel into Undercity.
 
@@ -149,22 +185,26 @@ Final stats:
 
 - 16430 hours spent on finished projects
 - 845 projects approved
-- 50+ projects
+- 50+ countries
 - 3 months of insane adventure.
 
-Highway was by far the hardest thing I had _ever_ run. Conversations for this started before Infill had even launched.
+Highway was by far the hardest thing I had _ever_ run. Planning started before Infill ever began!
 
 Important thing to note: in April I was at TCT + Rapid, where I made a _ton_ of connections there
 
-It was fucking _hard_. Prusa ghosted us.
+I vividly remember
 
-Who didn't ghost?
+It was fucking _hard_.
 
-I remember taking a meeting at 5am.
+I remember taking an uber back from HQ at 9pm or so when all of a sudden I got a message from Sam Hu that I was about
 
-I distinctly remember sometime around the 4th week of June when we realized we were _not_ going to be able to get.
+In the end, we closed roughly $20k in JLC coupons - pretty neat!
+
+I distinctly remember sometime around the 4th week of June when we realized we were _not_ going to be able to get even 50 people there, much less the 200 we were targeting. Fuck, I thought, how were we supposed
 
 I tackled some really interesting problems during this time.
+
+[desmos](https://www.desmos.com/calculator/fiwuzyjacr)
 
 Our original figma designs where absolutely insane
 
@@ -174,6 +214,8 @@ Our original figma designs where absolutely insane
 - Undercity and learnings from that
 - General learnings
 - Final stats
+
+My biggest takeaways from all of this was to just take care of myself.
 
 # Afterword
 
@@ -195,12 +237,16 @@ First, my fellow gap years (in no particular order):
 
 And the other friends I met along the way:
 
-- [John Cohn](http://johncohn.org/), for all the long phone calls about hardware. Genuinely an honor to be able to call you my friend. Words cannot convey how thankful I am to know you
+- [John Cohn](http://johncohn.org/), for all the long phone calls about hardware. Genuinely an honor to be able to call you my friend. Words cannot convey how thankful I am to know you.
 - [Strange Parts](https://www.youtube.com/@StrangeParts/featured), for being so incredibly magical. For adding in so much positivity in this world
 - [Max Wofford](https://maxwofford.com/), for giving endless advice on navigating my way through Hack Club. I don't think I would've made it nearly as far without you!
 - [Leo McElroy](https://leomcelroy.com/), for introducing me to Hack Club in the first place. Every single time I talk to you I am inspired by your work and what you do.
 - [Zach Latta](zachlatta.com), for taking a gamble on me. I cannot imagine where I would be right now if we didn't talk at Apocalypse
 - and the many, many people I met along the way. you know who you are.
+
+And to my enemies:
+
+- just kiddding!
 
 Life is weird. Weeks before I turned 17 I was convinced I was going to get into the [Overwatch League](https://en.wikipedia.org/wiki/Overwatch_League) and make a career after that. Then after retiring I was convinced I was going to do academia & research. Then less than a month from graduating I decided to take a gap year and move to another country. Who knows what'll happen next?
 

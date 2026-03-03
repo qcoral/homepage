@@ -1,10 +1,17 @@
 ---
 // Grab latest commit & timestamp from github repo
-
-const response = await fetch(
-    "https://api.github.com/repos/qcoral/homepage/commits/astro-ver",
-);
-const commitData = await response.json();
+let commitData;
+try {
+    const response = await fetch(
+        "https://api.github.com/repos/qcoral/homepage/commits/astro-ver",
+    );
+    commitData = await response.json();
+} catch (error) {
+    commitData = {
+        sha: "n/a",
+    };
+    console.log("fetch failed:", error);
+}
 // console.log(commitData);
 ---
 
@@ -27,7 +34,7 @@ const commitData = await response.json();
                       hour: "2-digit",
                       minute: "2-digit",
                   },
-              )
-            : "ratelimited :("
-    } UTC
+              ) + "UTC"
+            : "ratelimited D:"
+    }
 </div>

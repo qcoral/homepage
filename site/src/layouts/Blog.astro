@@ -1,6 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Navigator from "../components/Navigator.astro";
+const currentPath = Astro.url.pathname;
+console.log("current path:", currentPath);
 // this should only contain text + a back button to go back to normalcy
 ---
 
@@ -13,4 +15,12 @@ import Navigator from "../components/Navigator.astro";
     >
         <slot />
     </div>
+    <div class="h-20"></div>
+    {
+        currentPath.startsWith("/blog/") && (
+            <div class="text-center mx-auto mb-4 prose">
+                <a href="/blog">[Back to Blog]</a>
+            </div>
+        )
+    }
 </Layout>
