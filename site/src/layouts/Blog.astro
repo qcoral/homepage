@@ -1,8 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Navigator from "../components/Navigator.astro";
-const currentPath = Astro.url.pathname;
-console.log("current path:", currentPath);
+const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
 // this should only contain text + a back button to go back to normalcy
 ---
 

@@ -50,7 +50,7 @@ And the other friends I met along the way:
 - [Strange Parts](https://www.youtube.com/@StrangeParts/featured), for being so incredibly magical. For adding in so much positivity in this world
 - [Max Wofford](https://maxwofford.com/), for giving endless advice on navigating my way through Hack Club. I don't think I would've made it nearly as far without you!
 - [Leo McElroy](https://leomcelroy.com/), for introducing me to Hack Club in the first place. Every single time I talk to you I am inspired by your work and what you do.
-- [Zach Latta](zachlatta.com), for taking a gamble on me. I cannot imagine where I would be right now if we didn't talk at Apocalypse
+- [Zach Latta](https://zachlatta.com), for taking a gamble on me. I cannot imagine where I would be right now if we didn't talk at Apocalypse
 - and the many, many people I met along the way. you know who you are.
 
 And to my enemies:

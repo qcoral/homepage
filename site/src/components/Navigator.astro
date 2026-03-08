@@ -1,6 +1,5 @@
 ---
 const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
-console.log("Current path:", currentPath);
 const backPath = currentPath.split("/").slice(0, -1).join("/") || "/";
 ---
 
