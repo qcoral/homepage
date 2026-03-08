@@ -1,0 +1,9 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "alexren kicad package repository!",
+    "packages": {
+        "sha256": "737cbdad8ba00f770712ae4c1fce52a19db34ab490f1424b59f4e8743d4b0dbc",
+        "update_timestamp": 1773007948,
+        "url": "https://dari.zone/kicad/packages.json"
+    }
+}

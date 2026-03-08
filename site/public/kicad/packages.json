@@ -1,0 +1,30 @@
+{
+    "packages": [
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": ".gitignore generator",
+            "description": "Add a button that automatically generates a .gitignore file for your project!",
+            "description_full": "Generate a comprehensive .gitignore with the click of a button in the toolbar. Pulls from https://github.com/github/gitignore/blob/main/KiCad.gitignore\n\nWill never overwrite an existing .gitignore.",
+            "identifier": "com.github.qcoral.kicad-gitignore",
+            "type": "plugin",
+            "author": {
+                "name": "Alex Ren",
+                "contact": {
+                    "web": "https://dari.zone"
+                }
+            },
+            "license": "MIT",
+            "versions": [
+                {
+                    "version": "0.1.0",
+                    "status": "development",
+                    "kicad_version": "6.0",
+                    "download_sha256": "e5cd226703413764d3b37904f37c0f3ec479e504f8095ca79bd22df6dd40348d",
+                    "download_size": 6007,
+                    "download_url": "https://github.com/qcoral/kicad-gitignore/releases/download/v0.1.0/kicad-gitignore-v0.1.0.zip",
+                    "install_size": 8130
+                }
+            ]
+        }
+    ]
+}
