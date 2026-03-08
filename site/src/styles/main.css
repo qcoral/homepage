@@ -18,6 +18,10 @@
         monospace;
 }
 
+.astro-code {
+    @apply text-sm xl:text-base;
+}
+
 @layer utilities {
     .prose {
         @apply prose-sm xl:prose-base text-white/80;
@@ -41,6 +45,10 @@
 
     .prose p {
         @apply leading-relaxed;
+    }
+
+    .prose .caption {
+        @apply text-center -mt-4 text-white/67 italic;
     }
 
     /* Inset horizontal rules on small screens so they don't touch edges */

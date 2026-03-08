@@ -5,33 +5,33 @@ import "../styles/main.css";
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>alex!</title>
-    <meta property="og:title" content="alex!" />
-    <meta property="og:site_name" content="alex!" />
-    <meta property="twitter:title" content="alex!" />
-    <meta
-      name="description"
-      content="hi there! this is my personal site. contains: stuff about me, my projects, and personal ramblings"
-    />
-    <meta
-      property="og:description"
-      content="hi there! this is my personal site. contains: stuff about me, my projects, and personal ramblings"
-    />
-    <meta
-      property="twitter:description"
-      content="hi there! this is my personal site. contains: stuff about me, my projects, and personal ramblings"
-    />
-    <meta property="og:type" content="website" />
-    <link rel="icon" href="favicon.png" type="image/x-icon" />
-  </head>
-  <body
-    class="min-h-screen font-mono bg-black bg-[url('/bg_alt.svg')] bg-cover bg-no-repeat bg-fixed bg-center"
-  >
-    <div class="px-4 md:px-7 py-10 lg:py-12">
-      <slot />
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>alex!</title>
+        <meta property="og:title" content="alex!" />
+        <meta property="og:site_name" content="alex!" />
+        <meta property="twitter:title" content="alex!" />
+        <meta
+            name="description"
+            content="hi there! this is my personal site. contains: stuff about me, my projects, and personal ramblings"
+        />
+        <meta
+            property="og:description"
+            content="hi there! this is my personal site. contains: stuff about me, my projects, and personal ramblings"
+        />
+        <meta
+            property="twitter:description"
+            content="hi there! this is my personal site. contains: stuff about me, my projects, and personal ramblings"
+        />
+        <meta property="og:type" content="website" />
+        <link rel="icon" href="/favicon.png" type="image/x-icon" />
+    </head>
+    <body
+        class="min-h-screen font-mono bg-black bg-[url('/bg_alt.svg')] bg-cover bg-no-repeat bg-fixed bg-center"
+    >
+        <div class="px-4 md:px-7 py-10 lg:py-12">
+            <slot />
+        </div>
+    </body>
 </html>

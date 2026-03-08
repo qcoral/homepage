@@ -1,8 +1,8 @@
 ---
-// get current slug
-// make this better later lowkey
+const currentPath = Astro.url.pathname;
+const backPath = currentPath.split("/").slice(0, -1).join("/") || "/";
 ---
 
 <div class="text-lg font-semibold prose">
-    <a href="/"> &lt- [back home]</a>
+    <a href={backPath}>&lt;- [back]</a>
 </div>
