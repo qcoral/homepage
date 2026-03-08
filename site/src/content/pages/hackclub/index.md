@@ -24,7 +24,9 @@ _Author's note: as I've been writing this I realized this page has been way over
 - (WIP) [[Infill]](/hackclub/infill) (Feb 2025 - May 2025) - design a 3D printer, get $300 USD to build it. Build your printer after, get flown out to showcase at the Rocky Mountain RepRap Festival
 - (WIP) [Highway / Undercity] - Design _any_ hardware project, get up to $350 USD, and get invited to a 200-person 4-day hardware hackathon @ GitHub HQ in San Francisco
 
-# Afterword
+---
+
+## Afterword
 
 It'll be approximately the end of January 2026 by the time this document comes out, which would have been about 5 months after the end of my gap year!
 
