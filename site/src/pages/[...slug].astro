@@ -21,10 +21,11 @@ const published = page.data.published
           year: "numeric",
           month: "long",
           day: "numeric",
+          timeZone: "UTC",
       })
     : null;
 
-const isBlog = page.slug.startsWith("blog/");
+console.log("date:", published);
 ---
 
 <Blog>
