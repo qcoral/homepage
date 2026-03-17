@@ -16,7 +16,7 @@ Figured this would be good to share as some convo starters! I've tried my best t
 - [Rocky Mountain RepRap Festival 2025](https://rockymountainreprapfestival.com/2025-event/) (RMRRF)
 - [Open Sauce 2024](https://opensauce.com/)
 - [Open Sauce 2025](https://opensauce.com/) (as an exhibitor this time!)
-- [Supercon 2025](https://hackaday.io/superconference/) (highly recommend this one!)
+- [Hackaday Supercon 2025](https://hackaday.io/superconference/) (highly recommend this one!)
 
 ### Other:
 
