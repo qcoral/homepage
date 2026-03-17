@@ -4,25 +4,32 @@
  * 1. First, go to your Spotify Developer Dashboard:
  *    https://developer.spotify.com/dashboard
  *
- * 2. Select your app and add this redirect URI in Settings:
- *    https://d2088d9bc2ad.ngrok-free.app/callback
+ * 2. Select your app and add your redirect URI in Settings:
+ *    <SPOTIFY_REDIRECT_URI>/callback
  *
- * 3. Run: node scripts/get-refresh-token.js
+ * 3. Set env vars in .env: SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REDIRECT_URI
  *
- * 4. Open the URL it prints in your browser
+ * 4. Run: node --env-file=.env scripts/get-refresh-token.js
  *
- * 5. After authorizing, you'll be redirected to a URL with a "code" parameter.
+ * 5. Open the URL it prints in your browser
+ *
+ * 6. After authorizing, you'll be redirected to a URL with a "code" parameter.
  *    Copy that code and paste it when prompted.
  *
- * 6. The script will print your refresh token. Add it to your .env file.
+ * 7. The script will print your refresh token. Add it to your .env file.
  */
 
 import readline from "readline";
 
-const client_id = "0f45bc920f4945b0844b40a824caf0e8";
-const client_secret = "b6f9f5ffae694d91b88f730ebaa4a049"; // Remember to regenerate this!
-const redirect_uri = "https://d2088d9bc2ad.ngrok-free.app/callback";
+const client_id = process.env.SPOTIFY_CLIENT_ID;
+const client_secret = process.env.SPOTIFY_CLIENT_SECRET;
+const redirect_uri = `${process.env.SPOTIFY_REDIRECT_URI}/callback`;
 const scope = "user-read-currently-playing user-read-playback-state";
+
+if (!client_id || !client_secret || !redirect_uri) {
+    console.error("❌ Missing required environment variables: SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REDIRECT_URI");
+    process.exit(1);
+}
 
 const authUrl = `https://accounts.spotify.com/authorize?${new URLSearchParams({
     response_type: "code",
@@ -35,7 +42,7 @@ console.log("\n🎵 Spotify Refresh Token Generator\n");
 console.log("Step 1: Open this URL in your browser:\n");
 console.log(authUrl);
 console.log("\nStep 2: After authorizing, you'll be redirected to a URL like:");
-console.log("https://d2088d9bc2ad.ngrok-free.app/callback?code=AQBx...\n");
+console.log(`${process.env.SPOTIFY_REDIRECT_URI}/callback?code=AQBx...\n`);
 console.log(
     'Step 3: Copy the "code" value from that URL and paste it below:\n',
 );
@@ -73,9 +80,6 @@ rl.question("Paste the code here: ", async (code) => {
             console.log(data.refresh_token);
             console.log(
                 "\nAdd this to your .env file as SPOTIFY_REFRESH_TOKEN",
-            );
-            console.log(
-                "\n⚠️  Remember to regenerate your client_secret since it was shared publicly!",
             );
         }
     } catch (error) {
