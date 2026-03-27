@@ -17,11 +17,12 @@ Figured this would be good to share as some convo starters! I've tried my best t
 - [Open Sauce 2024](https://opensauce.com/)
 - [Open Sauce 2025](https://opensauce.com/) (as an exhibitor this time!)
 - [Hackaday Supercon 2025](https://hackaday.io/superconference/) (highly recommend this one!)
+- [Socratica Symposium 2026](https://symposium.socratica.info/)
 
 ### Other:
 
-- [Anthro New England 2025](https://www.anthronewengland.com/) (THIS ONE WAS AGAINST MY WILL IM NOT A FURRY I SWEAR)
 - [Origami USA 2015](https://origamiusa.org/convention2015)
+- [Anthro New England 2025](https://www.anthronewengland.com/) (THIS ONE WAS AGAINST MY WILL IM NOT A FURRY I SWEAR)
 
 ### More corporate I guess?
 
@@ -51,3 +52,5 @@ Hack Club:
 - [Undercity](https://undercity.hackclub.com/) (Jul 2025) (I ran this one!)
 - [Shipwrecked](https://shipwrecked.hackclub.com/) (Aug 2025)
 - [Prototype](https://blueprint.hackclub.com/prototype) (Dec 2025) (I ran this one too!)
+- [Campfire Flagship](https://flagship.hackclub.com/) (Feb 2026)
+- [Campfire San Jose](https://campfire.hackclub.com/san-jose) (Feb 2026)

@@ -3,15 +3,13 @@ title: "Learnings from esports"
 # published: 2026-01-02
 ---
 
-_author's note: this was originally just a general writeup, but I think the formatting works better as a writeup_
+_author's note: this was originally a longer form writeup, but I think what really matters are just the core few learnings_
 
 E-sports!
 
-tl;dr was really good at overwatch. played in tournaments & travelled. learned a lot from that time. Was being personally coached by [Crusty, perhaps the greatest Overwatch coach of all time](https://liquipedia.net/overwatch/Crusty)
+The tl;dr of this all is that I was really good at overwatch. played in tournaments & travelled. learned a lot from that time. Was being personally coached by [Crusty, perhaps the greatest Overwatch coach of all time](https://liquipedia.net/overwatch/Crusty)
 
-Also was really good at bedwars, but I was an incredibly annoying 12 year old so if you know me from that time I am truly sorry.
-
-main learnings:
+My main learnings from that time:
 
 - more time spent != more progress
 - deliberate, targeted practice takes you very far
@@ -22,16 +20,3 @@ main learnings:
 - most people you look up to are a conversation away.
 
 ---
-
-Statlist if you were somehow in these communities:
-
-### Overwatch teams:
-
-- [Avidity](https://liquipedia.net/overwatch/Avidity)
-
-### hypixel guilds:
-
-- Impurity
-- Dark
-- Nolifes
-- Bloodlust

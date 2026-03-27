@@ -10,7 +10,7 @@ Every time, I seem to give a slightly different story. To be truthfully honest, 
 
 For one, I want to feel like I did my 9-year-old self right. The one who saw hardware projects for the first time and _wishes_ she had peers for it. The one who wanted the same world as I do now:
 
-I want to live in a world where every day, there's a third space I can go to & make things. I want to live in a world where anyone in the world can find a group of peers tp design, build, and share creative projects with. I want to live in a world where every day I can wake up to thousands of videos by thousands of people about the thousands of projects they've created.
+I want to live in a world where every day, there's a third space I can go to & make things. I want to live in a world where anyone in the world can find a group of peers to design, build, and share creative projects with. I want to live in a world where every day I can wake up to thousands of videos by thousands of people about the thousands of projects they've created.
 
 And moreover:
 

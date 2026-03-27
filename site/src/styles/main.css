@@ -39,7 +39,7 @@
         @apply text-lg md:text-xl font-semibold text-white;
     }
 
-    .prose img {
+    .prose :not(.not-prose) > img {
         @apply w-160 mx-auto my-6 rounded-lg;
     }
 
