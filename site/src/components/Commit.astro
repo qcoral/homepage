@@ -16,13 +16,13 @@ try {
 ---
 
 <div class="text-gray-500 text-sm mt-4 mb-4 text-center">
-    Commit <a
-        class="text-pink-300 font-semibold"
+    commit <a
+        class="text-pink-300 font-semibold hover:bg-pink-400/70"
         href={`https://github.com/qcoral/homepage/commit/${commitData.sha}`}
         target="_blank"
         rel="noopener noreferrer"
-        >{commitData.sha ? commitData.sha.slice(0, 7) : "ratelimited :("}
-    </a>! last updated:
+        >{commitData.sha ? commitData.sha.slice(0, 7) : "ratelimited :("}</a
+    >! last updated:
     {
         commitData.commit
             ? new Date(commitData.commit.committer.date).toLocaleDateString(
@@ -34,7 +34,7 @@ try {
                       hour: "2-digit",
                       minute: "2-digit",
                   },
-              ) + "UTC"
+              ) + " UTC"
             : "ratelimited D:"
     }
 </div>
