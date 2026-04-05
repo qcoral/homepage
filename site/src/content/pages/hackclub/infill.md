@@ -69,38 +69,38 @@ Come a random afternoon on March 24th, I got an email out of the blue from Justi
 
 I couldn't believe my eyes. This event really was happening! I could not have been happier. The last time I had a booth at a maker-faire related event was 2016. _two thousand and 16._
 
-Quick checklist on what needed to get done logistics wise:
+![9yearoldme](https://cdn.hackclub.com/019d56ce-eae8-79b7-825e-239164141040/9yearoldme.png)
+
+<div class="caption">8 year old me staffing the Origami Society of Toronto booth. Circa 2014.</div>
+
+Anyhow, quick checklist on what needed to get done logistics wise:
 
 - Lodging - this one needed to be booked ASAP as prices were rising
-- Staffing for the event - there was no way I could run this thing alone, so I needed to find another HQ member to help staff
+- Staffing for the event - there was no way I could run this thing alone, so I needed to find another HQ member to help staff me!
 - Actual day-to-day plans about how this whole thing was gonna run
 - Parent calls & info sessions so that people could actually go!
 
-Pretty soon I started looking into lodging. What the hell was that going to look like? We were already way past booking hotels that weekend, as it would've cost us roughly 9k for the ~10-15 people who were there. AirBNB it is! As I was looking around though...
+Pretty soon I started looking into lodging. _What the hell was that going to look like?_
 
-The cheapest option was $7000. That was over half a year's worth of my rent at the time. All for 5 days.
+We were already way past booking hotels that weekend, as it would've cost us roughly 9k for the ~10-15 people who were there. AirBNB it is! As I was looking around though...
 
-No matter how much I looked around,
+The cheapest option was $7000. That was over half a year's worth of my rent at the time. All for 5 days. No matter how much I looked around, this was the cheapest option available
 
-No other option, I suppose. With a heavy finger, I went ahead and clicked "book"
+_No other option, I suppose_. With a heavy finger, I went ahead and clicked "book." _This budget is about to be so cooked_
 
-To the host's credit, it was very, very nice.
+To the host's credit, it was a really nice place! Had pretty much everything needed and the view was truly beautiful. Album coming at some point
 
 ![airbnb image](/hackclub/infill/airbnb_banner.png)
 
 <div class="caption">Hack Club Infill house, May 2025</div>
 
-The actual event itself was genuinely magical. The YouTubers being there really legitamized their projects
+The actual event itself was genuinely magical. The YouTubers being there really created for crazy moments. At one point we had 3 interviews going on at our table the entire time!
 
 Post mortem
-
-- How it started and how banged together it was
-    - Hosting th
-- The actual buildup to the event & the crazy logistics behind that
-- The event itself
-- Some post mortem thoughts
 
 Biggest surprises:
 
 - Some kid made one without ever having had a 3D printer
 - How much media attention we got from
+
+The biggest thing that Infill proved was that deep hardware events _were_ indeed possible.
