@@ -11,6 +11,11 @@ I've been called a handful of names over the course of my life. Alex, Robots4Lyf
 
 I've also had a lot of different chapters in my life. Hypixel
 
+I've spent a long, *long* time thinking about labels. 
+
 The truth is is that identity is a transient property. It is not something that just gets switched on and off, nor is it something that stays permanent. It constantly evolves. 
 
-What actually holds up is what you do. The naming and identity. 
+What actually holds up is what you do and the people you meet. What you actually call yourself and brand yourself is free to morph around that over time, and how you do so is far more malleable than what you think.
+
+As of 
+
