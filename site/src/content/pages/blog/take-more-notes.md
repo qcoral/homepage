@@ -4,7 +4,7 @@ draft: false
 published: 2026-05-05
 ---
 
-I keep needing to remind myself of this really simple fact time and time again. Keep taking more notes.
+I keep needing to remind myself of this really simple fact time and time again. Take more notes
 
 Making projects can be likened to climbing a cliff. You climb for a bit, set an anchor point, figure out where to go, and then keep climbing. Doing everything in one go is almost impossible.
 
