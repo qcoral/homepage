@@ -8,6 +8,7 @@ Here's a directory of all my writings! This page is manually updated, so if some
 
 Real things I've written!
 
+- [[Take more notes]](/blog/take-more-notes) - May 5, 2026
 - [[Esports learnings]](/blog/esports) - Mar 21, 2026
 - [[The mission]](/blog/mission) - Mar 11, 2026
 - [[The project is the journey]](/blog/on-guides) - Mar 2, 2026
