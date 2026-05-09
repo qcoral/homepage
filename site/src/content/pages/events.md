@@ -14,7 +14,7 @@ Figured this would be good to share as some convo starters! I've tried my best t
 - [Maker Faire Rochester 2019](https://rochester.makerfaire.com/)
 - [Bay Area Maker Faire 2024](https://makerfaire.com/bay-area-2023/)
 - [Rocky Mountain RepRap Festival 2025](https://rockymountainreprapfestival.com/2025-event/) (RMRRF)
-- [Rocky Mountain RepRap Festival 2026](https://rockymountainreprapfestival.com/) | [speaker segment](https://www.youtube.com/live/BjCrASFoR4g?si=27tZnwGpFZuSzOun&t=15138)
+- [Rocky Mountain RepRap Festival 2026](https://rockymountainreprapfestival.com/) | [speaker segment](https://www.youtube.com/live/BjCrASFoR4g?si=27tZnwGpFZuSzOun&t=15204)
 - [Open Sauce 2024](https://opensauce.com/)
 - [Open Sauce 2025](https://opensauce.com/) (as an exhibitor this time!)
 - [Hackaday Supercon 2025](https://hackaday.io/superconference/) (highly recommend this one!)

@@ -24,7 +24,7 @@
 
 @layer utilities {
     .prose {
-        @apply prose-sm xl:prose-base text-white/80;
+        @apply prose-sm xl:prose-base text-white/85;
     }
     .prose a {
         @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline;
