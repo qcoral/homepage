@@ -34,7 +34,7 @@
 }
 
 .landing a {
-    @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline;
+    @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline hover:text-white/85;
 }
 
 .landing strong {

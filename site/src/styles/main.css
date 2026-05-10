@@ -22,12 +22,16 @@
     @apply text-sm xl:text-base;
 }
 
+.alt-url a {
+    @apply text-rose-300 font-semibold hover:bg-rose-400/70 no-underline hover:text-white/85;
+}
+
 @layer utilities {
     .prose {
         @apply prose-sm xl:prose-base text-white/85;
     }
     .prose a {
-        @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline;
+        @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline hover:text-white/85;
     }
     .prose h1 {
         @apply text-2xl md:text-3xl font-semibold;
