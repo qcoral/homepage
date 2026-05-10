@@ -26,6 +26,10 @@
     @apply text-violet-300 font-semibold hover:bg-violet-400/70 no-underline hover:text-white/85;
 }
 
+.strong-url a {
+    @apply text-pink-300 font-bold hover:bg-pink-400/70 no-underline hover:text-white/85;
+}
+
 @layer utilities {
     .prose {
         @apply prose-sm xl:prose-base text-white/85;
