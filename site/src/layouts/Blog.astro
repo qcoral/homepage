@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Navigator from "../components/Navigator.astro";
+
 const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
 // this should only contain text + a back button to go back to normalcy
 ---
@@ -10,7 +11,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
         <Navigator />
     </div>
     <div
-        class="pt-8 prose-hr:my-0 bg-noise prose prose-invert max-w-xl lg:max-w-3xl 2xl:max-w-4xl mx-auto bg-zinc-900/65 p-4 md:p-6 rounded-none border-2 border-gray-600/50"
+        class="pt-8 prose-hr:my-0 bg-noise prose prose-invert max-w-xl lg:max-w-3xl 2xl:max-w-4xl mx-auto bg-zinc-900/80 p-4 md:p-6 rounded-none border-2 border-gray-600/50"
     >
         <slot />
     </div>

@@ -12,6 +12,8 @@ export async function getStaticPaths() {
 
 const { page } = Astro.props;
 
+const useSerif = page.slug.startsWith("blog/") || page.slug === "hackclub";
+
 const title = page.data.title ?? "title not found";
 const isDraft = page.data.draft ?? false;
 const { Content } = await page.render();
@@ -41,11 +43,17 @@ console.log("date:", published);
         }
     </div>
     <hr class="border-gray-600 border" />
-    {
-        isDraft ? (
-            <p>this page is currently a WIP! check back another time</p>
-        ) : (
-            <Content />
-        )
-    }
+    <div
+        class:list={[
+            useSerif && "font-serif prose-lg md:prose-xl prose-hr:my-8",
+        ]}
+    >
+        {
+            isDraft ? (
+                <p>this page is currently a WIP! check back another time</p>
+            ) : (
+                <Content />
+            )
+        }
+    </div>
 </Blog>

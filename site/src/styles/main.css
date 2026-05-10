@@ -12,10 +12,21 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "EB Garamond";
+    src:
+        url("/EBGaramond-VF.woff2") format("woff2"),
+        url("/EBGaramond-VF.woff") format("woff");
+    font-weight: 400 800;
+    font-style: normal;
+    font-display: swap;
+}
+
 @theme {
     --font-mono:
         "Monaspace Neon", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
         monospace;
+    --font-serif: "EB Garamond", serif;
 }
 
 .astro-code {
@@ -25,7 +36,6 @@
 .alt-url a {
     @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline hover:text-white/85;
 }
-
 @layer utilities {
     .prose {
         @apply prose-sm xl:prose-base text-white/85;
