@@ -10,6 +10,7 @@ Real things I've written!
 
 ### May
 
+- [[Identities]](/blog/identities) - May 10, 2026
 - [[Live, more genuinely]](/blog/live-genuinely) - May 9, 2026
 - [[Take more notes]](/blog/take-more-notes) - May 5, 2026
 
