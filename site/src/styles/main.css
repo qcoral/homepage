@@ -23,11 +23,7 @@
 }
 
 .alt-url a {
-    @apply text-violet-300 font-semibold hover:bg-violet-400/70 no-underline hover:text-white/85;
-}
-
-.strong-url a {
-    @apply text-pink-300 font-bold hover:bg-pink-400/70 no-underline hover:text-white/85;
+    @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline hover:text-white/85;
 }
 
 @layer utilities {
@@ -35,7 +31,7 @@
         @apply prose-sm xl:prose-base text-white/85;
     }
     .prose a {
-        @apply text-pink-300 font-semibold hover:bg-pink-400/70 no-underline hover:text-white/85;
+        @apply text-rose-300 hover:bg-rose-300/80 no-underline hover:text-white/85;
     }
     .prose h1 {
         @apply text-2xl md:text-3xl font-semibold;
