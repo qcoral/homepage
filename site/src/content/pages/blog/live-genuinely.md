@@ -14,4 +14,4 @@ Live, more genuinely.
 
 ---
 
-_i haven't really polished this idea. I just want this out there_
+_I vividly remember making an active effort to hide any transness I had when I was pushing pro Overwatch out of fear that transphobia would gatekeep me from the leagues. I never want anyone to ever have to go through that again_
