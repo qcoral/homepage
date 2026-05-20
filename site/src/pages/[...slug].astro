@@ -12,7 +12,10 @@ export async function getStaticPaths() {
 
 const { page } = Astro.props;
 
-const useSerif = page.slug.startsWith("blog/") || page.slug === "hackclub";
+const useSerif =
+    page.slug.startsWith("blog/") ||
+    page.slug === "hackclub" ||
+    page.slug.startsWith("hackclub/");
 
 const title = page.data.title ?? "title not found";
 const isDraft = page.data.draft ?? false;
