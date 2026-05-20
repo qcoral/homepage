@@ -6,7 +6,7 @@
     transition: background-image 0.05s ease;
 }
 .pfp-landing:hover {
-    background-image: url("https://raw.githubusercontent.com/qcoral/assets/refs/heads/main/pfp-irl-apr.png");
+    background-image: url("https://raw.githubusercontent.com/qcoral/assets/refs/heads/main/res_fixes/pfp_downscale-fs8.png");
 }
 
 .landing {
