@@ -8,6 +8,10 @@ Here's a directory of all my writings! This page is manually updated, so if some
 
 Real things I've written!
 
+### June
+
+- [[A few weeks in Europe]](/blog/europe-2026) - Jun 10, 2026
+
 ### May
 
 - [[Identities]](/blog/identities) - May 10, 2026
