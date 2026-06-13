@@ -10,6 +10,7 @@ Real things I've written!
 
 ### June
 
+- [[The dangers of social isolation]](/blog/the-dangers-of-social-isolation) - Jun 13, 2026
 - [[A few weeks in Europe]](/blog/europe-2026) - Jun 10, 2026
 
 ### May
