@@ -10,13 +10,13 @@ Real things I've written!
 
 ### June
 
-- [[The dangers of social isolation]](/blog/the-dangers-of-social-isolation) - Jun 13, 2026
+- [[Surround yourself]](/blog/surround-yourself) - Jun 13, 2026
 - [[A few weeks in Europe]](/blog/europe-2026) - Jun 10, 2026
 
 ### May
 
 - [[Identities]](/blog/identities) - May 10, 2026
-- [[Live, more genuinely]](/blog/live-genuinely) - May 9, 2026
+  <!-- - [[Live, more genuinely]](/blog/live-genuinely) - May 9, 2026 -->
 - [[Take more notes]](/blog/take-more-notes) - May 5, 2026
 
 ### April
