@@ -1,5 +1,5 @@
 ---
-title: The dangers of social isolation
+title: Surround yourself
 published: 2026-06-13
 ---
 
