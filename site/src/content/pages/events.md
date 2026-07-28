@@ -17,8 +17,11 @@ Figured this would be good to share as some convo starters! I've tried my best t
 - [Rocky Mountain RepRap Festival 2026](https://rockymountainreprapfestival.com/) | [speaker segment](https://www.youtube.com/live/BjCrASFoR4g?si=27tZnwGpFZuSzOun&t=15204)
 - [Open Sauce 2024](https://opensauce.com/)
 - [Open Sauce 2025](https://opensauce.com/) (as an exhibitor this time!)
+- [Open Sauce 2026](https://opensauce.com/) (with [20 booths](https://outpost.hackclub.com) this time around! )
 - [Hackaday Supercon 2025](https://hackaday.io/superconference/) (highly recommend this one!)
+- [Hackaday Europe 2026](https://hackaday.io/europe2026/)
 - [Socratica Symposium 2026](https://symposium.socratica.info/)
+- [Crowdsupply Teardown 2026](https://www.crowdsupply.com/teardown/portland-2026)
 
 ### Other:
 
