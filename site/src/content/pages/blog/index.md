@@ -8,6 +8,10 @@ Here's a directory of all my writings! This page is manually updated, so if some
 
 Real things I've written!
 
+### August
+
+- [[Spending 4 days on an island]](/blog/the-island) - Aug 6, 2026
+
 ### June
 
 <!-- - [[Surround yourself]](/blog/surround-yourself) - Jun 13, 2026 -->
