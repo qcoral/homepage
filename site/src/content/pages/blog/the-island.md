@@ -23,7 +23,7 @@ The premise was simple: Fly to SFO, get over to Antioch, take the ferry to Bradf
 
 <div class="caption"> ...and then drive out to the ferrypoint, where a ferry ran every hour to get us to the Island. Shouldn't be too hard, right? </div>
 
-## Day 1
+## Day 1: getting to the river delta
 
 I flew out of BTV at 6:00 AM to JFK on Wednesday, and then landed in SFO at roughly 12PM PST. It was not a fun flight. I think I'm growing old.
 
@@ -86,7 +86,7 @@ We were pretty exhausted by this point, so we dumped our food on the bar downsta
 
 <div class="caption"> my setup, the next morning </div>
 
-## Day 2
+## Day 2: exploring the island
 
 The next day it was Thursday; it was mostly uneventful, I mainly spent the day doing some Hack Club work, and also shipping a [new website](https://hackclub.dari.zone/) with some of my Hack Club philosophy documents, since it was scattered around various PDFs in the slack and repositories on GitHub. I was pretty happy with it.
 
@@ -110,7 +110,7 @@ He made me go up the lighthouse that had a beehive next to it. Here's what that 
 
 I ended up going to sleep after, and then it was Friday!
 
-## Day 3
+## Day 3: where it all went wrong
 
 Friday was a hectic day. Indy and I went over the Maritol and then talked about event logistics and big picture stuff for a couple of hours before we headed back over to Forbes Island to get some food
 

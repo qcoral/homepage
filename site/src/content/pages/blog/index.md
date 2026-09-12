@@ -10,7 +10,7 @@ Real things I've written!
 
 ### August
 
-- [[Spending 4 days on an island]](/blog/the-island) - Aug 6, 2026
+- [[Spending 4 days on an island]](/blog/the-island) - Sep 6, 2026
 
 ### June
 
