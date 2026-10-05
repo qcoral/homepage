@@ -21,7 +21,7 @@ _Author's note: as I've been writing this I realized this page has been way over
 ## The adventures!
 
 - [[Hackpad]](/hackclub/hackpad) (Oct 2024 - Jan 2025) - design your own macropad from scratch, get all the parts to build it for free!
-- (WIP) [[Infill]](/hackclub/infill) (Feb 2025 - May 2025) - design a 3D printer, get $300 USD to build it. Build your printer after, get flown out to showcase at the Rocky Mountain RepRap Festival
+- [[Infill]](/hackclub/infill) (Feb 2025 - May 2025) - design a 3D printer, get $300 USD to build it. Build your printer after, get flown out to showcase at the Rocky Mountain RepRap Festival
 - (WIP) [Highway / Undercity] - Design _any_ hardware project, get up to $350 USD, and get invited to a 200-person 4-day hardware hackathon @ GitHub HQ in San Francisco
 
 ---

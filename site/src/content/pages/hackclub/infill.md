@@ -3,9 +3,9 @@ title: "Infill!"
 draft: false
 ---
 
-THIS IS A DRAFT, IT IS UNFINISHED!
-
 <span class="font-mono">[[infill.hackclub.com]](https://infill.hackclub.com) [[YouTube Video]](https://www.youtube.com/watch?v=5G_g6yMLbMs)</span>
+
+![image](https://cdn.hackclub.com/01a109f1-b3e4-768c-ac12-1ec35e18669e/paste-1791168196962.png)
 
 I distinctly remember around the end of January 2025 feeling awfully uninspired. I had just finished majority of fulfillment for Hackpad V1 and was now running Hackpad V2. I was really tired of macropads and wanted to run something else.
 
@@ -88,7 +88,7 @@ We were already way past booking hotels that weekend, as it would've cost us rou
 
 The cheapest option was $7000. That was over half a year's worth of my rent at the time. All for 5 days. No matter how much I looked around, this was the cheapest option available
 
-_No other option, I suppose_. With a heavy finger, I went ahead and clicked "book." _This budget is about to be so cooked_
+_No other option, I suppose_. With a heavy finger, I went ahead and clicked "book." _This budget is about to be so cooked..._
 
 To the host's credit, it was a really nice place! Had pretty much everything needed and the view was truly beautiful. Album coming at some point
 
@@ -96,13 +96,34 @@ To the host's credit, it was a really nice place! Had pretty much everything nee
 
 <div class="caption">Hack Club Infill house, May 2025</div>
 
-The actual event itself was genuinely magical. The YouTubers being there really created for crazy moments. At one point we had 3 interviews going on at our table the entire time!
+The actual event itself was genuinely magical. The YouTubers being there really created for crazy moments. At one point we had 3 interviews going on at our table the entire time! I really do recommend watching the video if you have the time! I think it did an excellent job of encapsulating what the experience was like
 
-Post mortem
+<div class="aspect-video w-full my-4 rounded-lg overflow-hidden">
+<iframe class="w-full h-full" src="https://www.youtube.com/embed/5G_g6yMLbMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-Biggest surprises:
+<div class="caption"> Video embed here, for your convenience :salute: </div>
 
-- Some kid made one without ever having had a 3D printer
-- How much media attention we got from
+I had a _lot_ of takeaways from it. There's a braindump that I wrote in the slack right after the event containing some of my more raw thoughts post-event. _Feel free to ask me for it if you're interested!_
 
-The biggest thing that Infill proved was that deep hardware events _were_ indeed possible.
+I do want to highlight some parts I wrote in it:
+
+- SET EXPECTATIONS. What transit is covered? How is the day going to look like? Is food covered? I think a lot of the friction just came from having to repeat rules or figure them out on the fly because I didn't think through them.
+- It starts with the work. As long as you keep doing awesome things then opportunities, coverage, and any other resources you may need will come if you want it. A month prior I had gone to TCT + Rapid (another 3D printing conference) with just myself and it was very hard to close anything because there was very little to show.
+- Hack Club is very small. RMRRF was an expo of 5000 3D printing enthusiasts and maybe 1% of them had heard of Hack Club before.
+- One person can have a LOT of impact. One person who actually made it out to Colorado with us was worth more than 1000 signups.
+- Camaraderie is magical.
+
+![image](https://cdn.hackclub.com/01a10910-8fec-7181-875c-e0ab87648a3b/paste-1791153442106.png)
+
+<div class="caption"> yes, that's Zack Freedman! </div>
+
+Some other highlights:
+
+- Polymaker had extra filament at the end of the show, so they just came over and made a conga line with us to get it.
+- At one point we had 3 interviews going on at the same time at our booth!
+- One of the attendees won the free Positron raffle!
+
+The biggest thing that Infill proved was that deep hardware events _were_ indeed possible. Up until now, the main hardware projects coming into Hack Club were NFC hacker cards and hackpads, and while they _were_ cool, I really wasn't sure if people could have a deep experience with creating.
+
+Anyhow, this would lead into the last event I ran during my gap year, [The Highway to Undercity](/hackclub/highway-undercity). Check it out!
