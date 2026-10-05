@@ -1,6 +1,6 @@
 ---
 title: "Highway/Undercity!"
-draft: false
+draft: true
 ---
 
 ## Highway / Undercity
@@ -28,7 +28,7 @@ I vividly remember
 
 It was fucking _hard_.
 
-I remember taking an uber back from HQ at 9pm or so when all of a sudden I got a message from Sam Hu that I was about
+I remember taking an uber back from HQ at 9pm or so when all of a sudden I got a message from Sam Hu that I was about to get on a call with
 
 In the end, we closed roughly $20k in JLC coupons - pretty neat!
 
@@ -36,9 +36,13 @@ I distinctly remember sometime around the 4th week of June when we realized we w
 
 I tackled some really interesting problems during this time.
 
+With a heavy heart, I decided that we should probably
+
 [desmos](https://www.desmos.com/calculator/fiwuzyjacr)
 
 Our original figma designs where absolutely insane
+
+We ended up bouncing between meeting rooms at google HQ planning this,
 
 - The buildup to this
 - The terrible rush it was to get it shipped
