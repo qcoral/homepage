@@ -41,7 +41,7 @@ Fast forward to mid February, I was invited to dinner with [John Cohn](https://e
 
 We talked about running other programs similar to Hackpad (i.e make your own flipper zero clone, make your own mouse, etc), but we also started looking into what it would mean for Hack Club to run a _general_ hardware YSWS. Make anything you want, get the parts to build it. _How on earth would we do that?_
 
-_I also want to add - it was so fun to just riff back and forth about projects and I got to see so many coolo things._
+_I also want to add - it was so fun to just riff back and forth about projects and I got to see so many cool things._
 
 I really want to set the scene for what the landscape of hardware at the org looked like at the time. Up until now, in the entire history of Hack Club, we hadn't really run a proper general hardware YSWS that consistently got new projects; we had Onboard, which gave teenagers a flat $100 to design assembled PCBs, but the range of options was somewhat restricted just due to how the program was set up.
 
@@ -70,13 +70,13 @@ Undercity in particular had a couple of looming problems we had yet to answer:
 
 For question #1 - going back and forth with Zach, the main requirement was that the program needed to result in weighted projects somewhat economically. This seemed like a good opportunity to run a general hardware program too. Make anything, come to hardware utopia. I think this was the moment we knew Highway was happening for certain.
 
-For pricing, we ended up landing on $15/hr as a maximum for the all-in costs of the event, which meant that everything, including flight stipends, project funding, food, venue costs, etc ALL had to fit to $15 per hour spent by teenagers building projects to qualify.
+For pricing, we ended up landing on $15/hr as a maximum for the all-in costs of the event, which meant that everything, including flight stipends, project funding, food, venue costs, etc ALL had to fit within $15 per hour spent by teenagers building projects to qualify.
 
 ![image](https://cdn.hackclub.com/01a1aa1e-a1cc-7121-835f-2bb779c56d19/paste-1793855496485.png)
 
 <div class="caption"> That being said, the target was still $10! Surely couldn't be too hard, right? </div>
 
-For question #2 - that was a bigger question! We already had decided that we wanted to host this in SF for a multitude of reasons (Hack Clubber density, venue density, aspirational appeal, among others), but we were a little stuck on venue. Where on _earth_ were we going to host this thing? We originally wanted to aim for roughly ~400 Hack Clubbers!
+For question #2 - that was a bigger question! We already had decided that we wanted to host this in SF for a multitude of reasons (Hack Clubber density, venue density, aspirational appeal, among others), but we were a little stuck on venue. Where on _earth_ were we going to host this thing? We originally wanted to aim for roughly 400 Hack Clubbers!
 
 Getting venues is always a slog. I'll save you the trouble of reading, but long story short it was a LOT of emailing and asking around. SF Piers, Twitch, and Notion were among some of our considerations. Ultimately, it was GitHub that actually came through and helped make this happen! We ended up having weekly syncs with them up until the day of the event.
 
@@ -110,7 +110,7 @@ The final step after the flow & design were done was to just implement it! Inter
 
 <div class="caption"> I HATE YOU RUBY ON RAILS </div>
 
-Small problem: nobody on the team knew rails. This was before AI coding tools like amp, claude code, etc really existed either. So we couldn't patch it together. I distinctly remember being in Phil, one of the Hack Club buildings, and realizing that we were _not_ going to be able to implement the original platform we drafted. We ended up having to scrap the thing and basically scale Infill, the program I cobbled together in a weekend, to work with everything. Instead of a Rails backend we ended up just using Airtable animations for everything
+Small problem: nobody on the team knew Rails. This was before AI coding tools like amp, claude code, etc really existed either. So we couldn't patch it together. I distinctly remember being in Phil, one of the Hack Club buildings, and realizing that we were _not_ going to be able to implement the original platform we drafted. We ended up having to scrap the thing and basically scale Infill, the program I cobbled together in a weekend, to work with everything. Instead of a Rails backend we ended up just using Airtable automations for everything
 
 ![image](https://cdn.hackclub.com/01a1aa27-0ebb-7f1e-a7b3-5ac5d2f948bf/paste-1793856048560.png)
 
@@ -154,11 +154,11 @@ From here on out it was pretty smooth sailing for the next 2 weeks. It was prett
 
 <div class="caption"> sweet home Toronto. threw in a quick hack clubber meetup while I was there!</div>
 
-I got back to HQ in early June. Around this time I was taking an uber back from HQ at 9pm or so when all of a sudden I got a message from a friend of mine that I was about to get on a call with someone from JLCPCB to talk about sponsoring & advertising Highway. We ended up closing 18k. Thank you JLC.
+I got back to HQ in early June. Around this time I was taking an uber back from HQ at 9pm or so when all of a sudden I got a message from a friend of mine that I was about to get on a call with someone from JLCPCB to talk about sponsoring & advertising Highway. We ended up closing $18k. Thank you JLC.
 
 One thing I had to build post-launch was [Printing Legion](https://printlegion.hackclub.com), a p2p 3D printing platform comprised entirely of teenagers. That was a 2-hour vibecoding job. Still runs to this day!
 
-Skip forward to the end of June, we were running the math and we realized that we weren't even on track to get 50 people there, much less the 200 we were targeting. _Fuck_, I thought, how were we supposed to get everyone on time? We were _very_ persistent with GitHub about fitting 200 people. It would be a crazy let down to have less than 50.
+Skip forward to the end of June, we were running the math and we realized that we weren't even on track to get 50 people there, much less the 200 we were targeting. _Fuck_, I thought, how were we supposed to get everyone in time? We were _very_ persistent with GitHub about fitting 200 people. It would be a crazy let down to have less than 50.
 
 Clearly we needed to make it easier to qualify. Currently the system was earning points through making projects, and it required 8 points to qualify. What if we cut that in half? Would the math work out? Would we admitting more people than we could handle?
 
@@ -218,7 +218,6 @@ I'm only finishing this document just over a year after my Gap Year ended. Since
 - Hackaday Europe 2026
 - Stardance
 - Outpost
-- Stardance
 
 And there are SO many learnings from that. Maybe I'll write about it another time. Who knows.
 
