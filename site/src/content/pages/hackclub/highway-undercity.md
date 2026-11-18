@@ -166,7 +166,7 @@ Well the cool part about math is that it actually _does_ work! Plugging in all o
 
 ![image](https://cdn.hackclub.com/01a1aa3b-ef8d-7ed7-8727-f4435b5cd2d6/paste-1793857416458.png)
 
-<div class="caption"> <a href="https://www.desmos.com/calculator/fiwuzyjacr" target="_blank" rel="noopener noreferrer"> desmos </a> link here, if you're curious! </div>
+<div class="caption"> <a href="https://www.desmos.com/calculator/14giklmuec" target="_blank" rel="noopener noreferrer"> desmos </a> link here, if you're curious! </div>
 
 And sure enough, the math just about works out to 166 people attending if we lower the requirements. And so we did.
 
